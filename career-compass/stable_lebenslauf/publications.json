@@ -1,0 +1,100 @@
+[
+    {
+        "title": "Optimierung von KNIME Workflows für Big Data Analytics",
+        "publisher": "GRIN",
+        "year": "2026",
+        "url": "https://www.grin.com/document/1488122",
+        "description": "In dieser Studie wurde die Implementierung eines neuen Softwaresystems innerhalb der Hubert Burda Media Holding untersucht, das darauf abzielt, umfangreiche Datensätze effizient zu kombinieren, zu aktualisieren und zu validieren. Die Notwendigkeit einer lokalen Ausführung der Software wird betont, um die Sicherheit interner Daten zu gewährleisten. Es werden spezifische Anforderungen und Kriterien für das System festgelegt, einschließlich Funktionen für Datenbereinigung und Analyse, die transparente und nachvollziehbare Ergebnisse liefern. Eine umfassende Bewertung von über 50 Produkten wurde durchgeführt, wobei wissenschaftliche Forschungsergebnisse den Auswahlprozess unterstützten. Die Entscheidung fiel auf KNIME, ein Tool, das für seine leistungsstarken Datenverarbeitungsfunktionen bekannt ist. Die Integration von KNIME in die bestehende IT-Infrastruktur wird detailliert beschrieben, mit besonderem Fokus auf die Anforderungen an Schnittstellen und die Leistungsfähigkeit der Software. Es wurden fünf potenzielle Schnittstellen identifiziert und mit dem SAP-System abgeglichen. Die Studie beleuchtet auch die anfänglichen Hypothesen über die geeignete Lösung und deren Umsetzung. Während des Projekts traten technische und organisatorische Herausforderungen auf, insbesondere bei der Evaluierung der Schnittstellen, die von der IT-Abteilung abhängig sind. Eine vorgeschlagene Lösung beinhaltete den unidirektionalen Export von Daten aus dem SAP R/3-System auf einen Microsoft SQL Server, was Änderungen an den SAP-Daten verhindert und einen etablierten Dienst nutzt. Diese Studie bietet einen umfassenden Überblick über den Prozess der Auswahl und Implementierung eines Softwaresystems, das die spezifischen Anforderungen eines großen Medienkonzerns erfüllt."
+    },
+    {
+        "title": "Verantwortungsvoller Umgang mit künstlicher Intelligenz. Wie können Menschenrechte beim Einsatz von KI gewahrt werden?",
+        "publisher": "GRIN",
+        "year": "2023",
+        "url": "https://www.grin.com/document/1382179",
+        "description": "Diese Arbeit zielt darauf ab, AI-Methoden und deren Regulierung darzustellen, bestehende Rahmenbedingungen und Regulierungen von AI zu beleuchten und eine Diskussionsgrundlage über ihren Nutzen, Risiken und Gefahren im Sinne der Menschenrechte zu schaffen. Sie betont die Wichtigkeit einer angemessenen Überwachung von AI, um Missbrauch einzudämmen, und fordert die Sensibilisierung der Öffentlichkeit für die Potenziale und Risiken der AI, um Menschen vor Betrug und Manipulation zu schützen."
+    },
+    {
+        "title": "Integration eines Qualitätsmanagements in der Softwareentwicklung",
+        "publisher": "Amazon",
+        "year": "2023",
+        "url": "https://amzn.eu/d/00F2U5M",
+        "description": "Das Qualitätsmanagement in der Softwareentwicklung bezieht sich auf den Prozess, die Methoden und die Tools, die verwendet werden, um die Qualität von Softwareprodukten sicherzustellen. Dies beinhaltet die Überwachung und Überprüfung der Entwicklung von Anfang bis Ende, um sicherzustellen, dass die Software den Anforderungen des Kunden entspricht und Fehler minimiert werden. Ein wichtiger Teil des Qualitätsmanagements in der Softwareentwicklung ist die Durchführung von Tests."
+    },
+    {
+        "title": "Kanban-System zur Optimierung von Produktions- und Lieferketten",
+        "publisher": "Amazon",
+        "year": "2023",
+        "url": "https://amzn.eu/d/7YCaeFZ",
+        "description": "In dieser Studienarbeit werden die Möglichkeiten eines Kanban-Systems in Kombination mit ERP-Software erforscht, um Produktions- und Lieferketten nachhaltiger und effizienter zu gestalten. Dabei werden die Funktionsweise und Voraussetzungen für die automatisierte Überwachung von Materialflüssen erläutert, sowie Systeme zur automatischen Identifikation im Qualitätsmanagement vorgestellt. Die Vor- und Nachteile eines digitalisierten Kanban-Systems mit automatischer Identifikation von Komponenten werden im Kontext eines Unternehmens aufgezeigt. Die Vorgehensweise basiert auf wissenschaftlicher Literatur zu Produktions- und Logistikmanagement sowie PMT-Software zur Kapazitätsauslastung. Ziel ist es, Investitionspotenziale für schnellere Lieferungen und reduzierten Ressourcenbedarf aufzuzeigen."
+    },
+    {
+        "title": "Digitale Zwillinge",
+        "publisher": "GRIN",
+        "year": "2023",
+        "url": "https://www.grin.com/document/1361892",
+        "description": "Technologien und Informationsverarbeitung prägen den Alltag von Menschen. Viele Menschen besitzen ein Smartphone, welches mit Sensorik ausgestattet ist, um den Standort innerhalb von Funkantennen wie auch im Bereich geostationärer Satelliten zu bestimmen. Die Höhe verglichen zum Meeresspiegel, die Bewegungsgeschwindigkeit des Nutzers wie auch dessen durchschnittliche Nutzung des Geräts kann regelbasiert analysiert werden, um als Reaktion auf die gemessenen Daten die durchschnittliche Schlafenszeit wie auch präferierte Routen zu nutzen, um relevante Benachrichtigungen zu Neuigkeiten in der Umgebung zu erhalten (Alpaydi, 2021). Künstliche Intelligenzen erstellen Profile für Werbeagenturen, Versicherungen und Entwicklung von neuen Produkten wie Applikationen und Geräten (Jordan, 2016). Dieser Text selbst kann bereits von linguistischen, neuronalen Modellen auf Rechtschreibung geprüft, wie auch anhand einiger Vorgaben verfasst werden (Bubeck, et al., 2023, S. 92). In der fertigenden Industrie werden Roboterarme eingesetzt, um schwere Bauteile zu heben, Komponenten zu verschweißen und zu lackieren. Dabei entstehen viele Daten über die Nutzung und den Zustand eines Roboters, welche zur Optimierung genutzt werden können."
+    },
+    {
+        "title": "Iterative Entwicklung mit Versionsprotokollierung",
+        "publisher": "GRIN",
+        "year": "2023",
+        "url": "https://amzn.eu/d/1336655",
+        "description": "Heutzutage basiert der größte Teil der Technologien, die wir verwenden, auf Software. Bei der Programmierung wird der Code erstellt, aus welcher die Software besteht. Die Programmierung hat also im Laufe der Zeit einen immer höheren Stellenwert eingenommen. Dies ist auch der Grund, warum immer mehr Programmierparadigmen und Programmiersprachen entwickelt wurde. Die Iterative Entwicklung mit Versionsprotokollierung ist ein wichtiger Ansatz für die Softwareentwicklung, bei dem Projekte in kleinen Schritten und mit regelmäßiger Überprüfung und Überarbeitung fortgesetzt werden. Durch die Verwendung eines Versionskontrollsystems werden Änderungen an der Codebasis dokumentiert und es kann jederzeit zu früheren Versionen zurückgekehrt werden, wenn Probleme auftreten.Dieser Ansatz ermöglicht es Entwicklern, kontinuierlich Feedback von Benutzern und Stakeholdern zu erhalten und darauf zu reagieren, wodurch die Qualität und die Übereinstimmung mit den Anforderungen des des Projekts garantiert werden. Darüber hinaus kann die Zusammenarbeit von Entwicklern vereinfacht und beschleunigt werden, da Änderungen an der Codebasis jederzeit sicher nachverfolgt werden können. Insgesamt trägt die Iterative Entwicklung mit Versionsprotokollierung zu einem besseren Verständnis und einer größeren Kontrolle über das Projekt bei und führt zu einer höheren Qualität und Zuverlässigkeit des endgültigen Produkts."
+    },
+    {
+        "title": "Informationssicherheit im Cloud-Computing",
+        "publisher": "GRIN",
+        "year": "2023",
+        "url": "https://www.grin.com/document/1318357",
+        "description": "Bereits in den 1960er Jahren entstanden Ideen, IT-Ressourcen wie Rechenleistung und Anwendungen als eine Dienstleistung einer großen Anzahl von Kunden gegen eine Nutzungsgebühr zur Verfügung zu stellen. Auf Grund der dafür notwendigen, aber damals noch nicht vorhandenen technischen Voraussetzungen wie schnelle und stabi­le Internetverbindungen sowie der Mehrbenutzerfähigkeit von IT-Systemen, war der technische und wirtschaftliche Durchbruch nicht möglich (Büst, 2013). Seit 2006 Amazon Web Services gestartet ist, haben sich weitere Dienstleister eta­bliert, bei denen mehrere unabhängige Nutzer in ihrem Budget flexibel agieren und durch gemeinsame Rechenkapazitäten hohe Bedarfsspitzen abdecken können. Der Aufbau einer Cloud Infrastruktur kann in drei Grundmodelle unterteilt werden: einer Public Cloud, einer Private Cloud und einer Kombination aus beidem - der Hybrid Cloud.Alle größeren Firmen in diesem Feld bieten Dienstleistungen an, welche durch internationale Datenschutzrichtlinien wie den Electronic Communications Privacy Act und den Patriot Act der Vereinigten Staaten von Amerika und der davon abhängigen Datenschutzvereinbarung Safe Harbour, welche durch den EU - US Data Privacy Shield und der Datenschutzgrundverordnung(GDPR, General Data Protection Regulation) der EU erweitert wurde, geschützt sind.Zur Vermeidung von Risiken der Datensicher­heit wird ein eingeschränkter Zugriff durch Befugnisrollen, eigene Verschlüsselung der verarbeiteten Daten, des Kommunikationsweges über Netzwerke durch Zugriffsbe­schränkungen, Virtuelle Private Netzwerk Tunnel, regelmäßige Prüfung auf Viren und andere Sicherheitsmaßnahmen empfohlen auch wenn Betreiber von Rechenzentren bereits hohe Standards für Verschlüsselungen und Datensicherheit erfüllen."
+    },
+    {
+        "title": "Risikomanagementprozesse. Wie sichert die Analyse von Risiken die strategische Positionierung eines Unternehmens ab?",
+        "publisher": "GRIN",
+        "year": "2022",
+        "url": "https://www.grin.com/document/1293242",
+        "description": "Ein Unternehmen unterliegt je nach Branche und Markt auch Geschäftsrisiken durch das Tagesgeschäft. Diese können durch den Standort, die Handhabung von Gefahren­gut, dem Ausfall von Personal, Geschäftspartnern, Technologie, Liquidität und Ände­rungen am rechtlichen Rahmen hervorgerufen werden. Um eine Resilienz in diesen Herausforderungen aufzubauen, bedarf es Risikomanagementprozesse, welche Ge­fahren analysieren und präventive Maßnahmen erschließen (RMS, Risikomanage­mentsystem). Das Alltagsgeschäft wird zusätzlich durch geopolitischen Umstände, welche Rohstoffpreise und Wechselkurse beeinflussen, geprägt. In den letzten Jahren ist die Anzahl an Krisen weltweit gestiegen. Ende der 1990er Jahre haben überbewer­tete Internetfirmen an der globalen Börse für Turbulenzen gesorgt, gefolgt von der Fi­nanzkrise im Jahr 2008 mit ungedeckten Immobilienkrediten. Obwohl es bereits in den 1980er Jahren deutlich wurde, dauerte es einige Jahrzehnte, bis strukturelle Änderun­gen durch internationale Konzerne und Lieferketten im Sinne nachhaltiger und sozialer Führung (ESG, Environmental Social Governance) realisiert wurden. Nach 2 Jahren Pandemie und zunehmender Nachfrage an nachhaltigen Lösungen für Mobilität, Indus­trie und Haushalte aufgrund von Engpässen von Öl und Gas nimmt auch die Wahr­scheinlichkeit für ernsthafte Risiken im Westen Europas zu."
+    },
+    {
+        "title": "IT-Security und Datenschutz. Bedrohungsanalyse für eine Arztpraxis",
+        "publisher": "GRIN",
+        "year": "2022",
+        "url": "https://www.grin.com/document/1264668",
+        "description": "Während zunehmend mehr digitale Geräte und Anwendungen im Alltag verwendet werden, um Informationen zu verarbeiten wächst auch die Anzahl an Bedrohungen für die Sicherheit der Kommunikationssysteme. Damit ein System sicher ist, muss es un­terbrechungsfrei und nur für befugte Personen verfügbar sein. Sowohl die technische Infrastruktur als auch die Art und Weise wie diese von Personen genutzt wird muss den Zielen einer Organisation gerecht werden, dass die Informationsverarbeitung vertrau­lich erfolgt. Cybersicherheit wird oft nur als notwendige Compliance-Aufgabe oder gar als reiner Kostenfaktor betrachtet. Dabei kann eine hohe Sicherheit bei digitalen Pro­zessen oder Produkten ein Mehrwert oder Wettbewerbsvorteil sein. Cloud-Systeme oder Plattformen etwa funktionieren nur zuverlässig, wenn sie von Grund auf sicher sind. Das Kundenvertrauen kann durch nachweislich existente Sicherheitsmaßnahmen gestärkt werden. Cybersicherheit ist so notwendig wie das Qualitätsmanagement. Laut dem Digitalverband Bitkom entstehen der deutschen Wirtschaft jährlich Schäden von rund 230 Milliarden Euro durch Cyberangriffe. Nicht nur Universitäten oder Politiker werde dadurch getroffen, sondern sogar kritische Infrastrukturen wie die Strom- oder Wasserversorgung, Krankenhäuser oder Kommunikationssysteme. Private Unterneh­men aller Größen sind in letzter Zeit verstärkt zur Zielscheibe von Cyberattacken ge­worden, die beträchtlichen Schaden anrichten und auch die Existenz bedrohen kön­nen. Beispiele sind gestohlene Kundendaten oder Innovationen, gefälschte E-Mails vom CEO mit der Aufforderung, Geld auf Auslandskonten zu überweisen, oder die Blo­ckade der Produktionsanlagen mit anschließender Erpressung. Am häufigsten greifen die Cyberkriminellen Unternehmen mit sogenannter Ransomware an, um so Lösegeld zu erpressen."
+    },
+    {
+        "title": "Qualitätsmanagement in der fertigenden Industrie mithilfe von Radiofrequenz-Identifikation",
+        "publisher": "GRIN",
+        "year": "2021",
+        "url": "https://www.grin.com/document/1264682",
+        "description": "Unternehmen agieren im globalen Wettbewerbsmarkt. Um sich gegenüber vergleichbaren Produkten der Konkurrenz durchzusetzen, müssen die Merkmale eines Produkts den Ansprüchen eines Kunden gerecht werden. Damit das Produkt eines Unternehmens in einem Rahmen erzielt wird, welcher sowohl Zeit, Kosten als auch Qualität beachtet, benötigt ein Unternehmen eine Überwachung und Verbesserung der Produktionsprozesse. Die Qualitätskontrolle kann durch Mitarbeiter oder durch Automation erfolgen. Auf den folgenden Seiten wird erläutert, wie RFID-Systeme in der fertigenden Industrie genutzt werden können, um qualitative Produkte zu erzielen."
+    },
+    {
+        "title": "Wie werden mithilfe eines Siebensegment-Dekodierers digitale Zahlen als Dezimalzahlen auf einer Siebensegment-Anzeige dargestellt?",
+        "publisher": "GRIN",
+        "year": "2021",
+        "url": "https://www.grin.com/document/1264678",
+        "description": "Schon Anfang des letzten Jahrhunderts wurden Nachrichten über lange Distanzen mit elektrischen Signalen übertragen. Das manuelle Übersetzen der Nachrichten in verschiedenste Kombinationen aus kurzen und langen Signalen, wie auch das Auslesen dieser in reinen Text dauerte jedoch sehr lange. Daher gab es Ansätze, um die Morsezeichen direkt als alphanumerische Zeichen darzustellen. Die Darstellung von Informationen zur Warnung von Mitarbeitern in der Industrie und Logistik oder zur Mitteilung von sich ändernden Preisen und Handlungsanweisungen sind eine nützliche Anwendung für jeden Betrieb, innerhalb eines Gebäudes oder auf einem öffentlichen Platz.Digitale Anzeigen sind heutzutage kostengünstig, mitunter wegen der weiten Verbreitung von LED, welche in unterschiedlichsten Farben und Licht- stärken verfügbar sind. Gegenüber Plakatwerbung und statischen Zeichen ist es möglich, mit Bildern, Animationen wie auch Videos die Aufmerksamkeit auf eine Botschaft zu richten. Im alltäglichen Gebrauch sind Anzeigen bei Radioweckern, Armbanduhren und Taschenrechnern zu finden oder um Temperaturen am Ofen, die verbleibende Laufzeit bei einer Waschmaschine oder die Preise an der Tankstelle anzuzeigen."
+    },
+    {
+        "title": "Analyse großer industrieller Datensätze. Wie werden große Datensätze in der fertigenden Industrie analysiert und verwertet?",
+        "publisher": "GRIN",
+        "year": "2021",
+        "url": "https://www.grin.com/document/1264676",
+        "description": "Innovative Technologien haben dem Menschen erst durch Wasserdampf, dann mithilfe von Elektrizität routinierte, mechanische Arbeiten abgenommen. Die Digitaltechnik er­möglicht zudem eine Verarbeitung von Informationen, um Betriebsprozesse fortlaufend zu optimieren und neu zu erfinden. Zusammen mit sensibler Sensorik können auch Fertigungsanlagen und deren Wartungsprüfung automatisiert werden und während ei­ner laufenden Produktion Fehler vermieden werden, was zu einer höheren Qualität der Produkte führt. Statt handwerkliche Arbeiten durchzuführen, erhält der Mensch da­durch neue Aufgabengebiete bei der Kontrolle, Steuerung, Überwachung und Verbes­serung von Maschinen. Unternehmen nutzen in industriellen Fertigungsanlagen ver­schiedenste automatisierte Lösungen von mehreren Herstellern. In einer Wertschöp­fungskette entstehen in der Logistik eines speziellen Bauteils eines Zulieferers Daten über den Status der derzeitigen Position, durch Prüfungen auf Unversehrtheit und der vollständigen Zahlung der Transaktion. Das empfangende Unternehmen kann wieder­um ein Zulieferer eines weiteren Unternehmens oder Konsortiums sein. Falls die anfal­lenden Daten von Maschinen unterschiedlichster Hersteller und die Transaktionsdaten von einem Unternehmenszusammenschluss nicht durch standardisierte Schnittstellen, Formate, Sprache und Maßeinheiten gleichgeschaltet sind, entsteht eine Barriere. Die­se muss mit zusätzlichem Aufwand und Investitionen aller beteiligten Unternehmen überwunden werden, um zeitnahe und aussagekräftige Rückschlüsse über den Zu­stand einer Produktionsanlage und der entsprechenden Logistik treffen zu können. Mit modernsten Technologien der elektronischen Datenverarbeitung können akkurate Aus­sagen über zukünftige Zustände erschlossen werden, sodass Steuerungskomponente Anpassungen der Produktionsumgebungen selbst übernehmen."
+    },
+    {
+        "title": "Die Bestimmung der Elementarladung",
+        "publisher": "GRIN",
+        "year": "2021",
+        "url": "https://www.grin.com/document/1336653",
+        "description": "Elektrizität ist im Alltag allgegenwärtig − jeder Haushalt erhält regelmäßig eine Stromrechnung. Die dort in Rechnung gestellte 'Ware' ist jedoch nicht der elektrische Strom, sondern die gelieferte elektrische Energie, die zum Beleuchten, Heizen, Kühlen oder für mechanische Arbeiten genutzt wurde. Wenn von elektrischem Strom gesprochen wird, ist im Allgemeinen die Stärke dieses Stromes gemeint, also die physikalische Größe elektrischer Stromstärke. Diese ist definiert als die Menge an elektrischer Ladung, die pro Zeitintervall durch den Querschnitt eines elektrischen Leiters fließt, geteilt durch die Länge des Zeitintervalls."
+    },
+    {
+        "title": "Die Monopolstellung von FlixBus im Markt für Personenverkehr",
+        "publisher": "GRIN",
+        "year": "2020",
+        "url": "https://www.grin.com/document/1336653",
+        "description": "Anhand des Segments im Markt für Personenverkehr wird aufgezeigt, wie das Unternehmen FlixBus sich im Markt fur Fernbusreisen etabliert hat. Dies wird dadurch gestützt, dass die Geschichte des Personenbeforderungsgesetz aufgeführt wird und wie verschiedene Unternehmen, welche später von FlixBus akquiriert wurden, diesen Markt ausgebaut und bedient haben. Weiter wird auch darauf ein- gegangen, wie sich FlixBus durch Markenbekanntheit und Qualität bei der Buchung und der Fahrt als Marktführer durchgesetzt hat und welche Preiselastizität in der Nachfrage fur Fahrscheine vorherrscht und wie diese die Erlöse beeinflusst. Zum Schluss wird diskutiert, wie die Bundesregierung von Deutschland bei einer Monopolbildung reagiert und wie sich diese Situation auf europäischer Ebene verhält."
+    }
+]

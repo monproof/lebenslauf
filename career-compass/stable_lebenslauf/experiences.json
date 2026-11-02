@@ -1,0 +1,121 @@
+[
+    {
+        "title": "Solution Architect & Project Coordinator",
+        "company": "",
+        "startDate": "03.2025",
+        "endDate": "jetzt",
+        "employmentType": "Projektarbeit",
+        "location": "Remote",
+        "companyLink": "https://www.sinowski.de/",
+        "description": [
+            "Full-Stack-Entwicklung & Versionsmanagement: Konzeption und technische Umsetzung der Plattform sinowski.de unter Nutzung von Visual Studio; Etablierung einer strukturierten Entwicklungs-Pipeline mittels Git zur Sicherstellung von Code-Integrität und Revisionssicherheit.",
+            "KI-Integration & Prozessoptimierung: Implementierung innovativer Workflows durch gezieltes Prompt Engineering zur Automatisierung von Inhalten und Systemprozessen, um die Effizienz der Plattform und die User Experience maßgeblich zu steigern.",
+            "Entwicklung: Integration einer webbasierten App für die automatisierte Extraktion von Schlüsselqualifikationen und Anforderungen aus Stellenanzeigen mit KI-Tools, um die Passgenauigkeit von Bewerbungen zu erhöhen.",
+            "Strategische Projektplanung & Architektur: Verantwortung für den gesamten Projektlebenszyklus – von der Anforderungsanalyse und technologischen Planung bis hin zum Deployment – unter Berücksichtigung skalierbarer IT-Strukturen."
+        ]
+    },
+    {
+        "title": "IT Consultant",
+        "company": "HAVI Solutions GmbH & Co. KG",
+        "startDate": "06.2024",
+        "endDate": "11.2024",
+        "employmentType": "Vollzeit",
+        "location": "Remote",
+        "companyLink": "https://www.havi.com/",
+        "description": [
+            "Optimierung von Datenmigrations-Workflows (SQL → XML)",
+            "Datenanalyse mit SQL und Perl zur Identifikation von Mustern",
+            "Automatisierung wiederkehrender Aufgaben mit Bash & PowerShell",
+            "Abstimmung technischer Anforderungen mit Fachbereichen; Effizienzsteigerung"
+        ]
+    },
+    {
+        "title": "Business Intelligence & Data Analytics",
+        "company": "Hubert Burda Media Holding",
+        "startDate": "04.2023", 
+        "endDate": "02.2024",
+        "employmentType": "Teilzeit",
+        "location": "Remote",
+        "companyLink": "https://www.burda.com/",
+        "description": [
+            "Konzeption und Pflege von Zeiterfassungssystemen in Excel",
+            "Finanzanalysen und Reporting mit KNIME; Erstellung von Visualisierungen",
+            "Evaluierung und Empfehlung passender Analysetools und Softwarelösungen",
+            "Erstellung aussagekräftiger Berichte für Entscheidungsträger"
+        ]
+    },
+    {
+        "title": "Datenerfasser",
+        "company": "TIER Mobility",
+        "startDate": "10.2021",
+        "endDate": "10.2022",
+        "employmentType": "Teilzeit",
+        "location": "Berlin",
+        "companyLink": "https://www.tier.app/",
+        "description": [
+            "Digitalisierung und Archivierung eingehender Dokumente in Google Drive",
+            "Datenaufbereitung und Validierung in Google Sheets zur Qualitätssteigerung",
+            "Durchgeführte Analysen zur Prozessverbesserung und Kostensenkung",
+            "Verfasser von zwei wissenschaftlichen Arbeiten in Kooperation mit TIER Mobility"
+        ]
+    },
+    {
+        "title": "Datenanalyst",
+        "company": "Sasserath Munzinger Plus",
+        "startDate": "05.2022",
+        "endDate": "06.2022",
+        "employmentType": "Projekt",
+        "location": "Berlin",
+        "companyLink": "https://www.sasserath-munzinger.de/",
+        "description": [
+            "Auslese, Bereinigung und Analyse von Umfragedaten (SPSS → Excel)",
+            "Erstellung von Pivot-Tabellen und Diagrammen zur Visualisierung",
+            "Erstellung einer professionellen Präsentation mit erklärenden Ergebnissen",
+            "Statistische Auswertung und Berichtserstellung"
+        ]
+    },
+    {
+        "title": "Junior Software Developer & IT-Support",
+        "company": "HAVI Solutions GmbH & Co. KG",
+        "startDate": "02.2019",
+        "endDate": "08.2019",
+        "employmentType": "Teilzeit",
+        "location": "Hamburg",
+        "companyLink": "https://www.havi.com/",
+        "description": [
+            "Automatisierung und Migration von Datenbanken mit Bash, Perl und Java",
+            "Mitwirkung an Java-Entwicklung im agilen Umfeld (Scrum, Git)",
+            "Entwicklung von Dokumenten-Automatisierungen mittels Excel-gestützter Vorlagen",
+            "Recherche und Dokumentation zu Cloud- und Container-Technologien (AWS, Docker, Kubernetes)"
+        ]
+    },
+    {
+        "title": "EDV-Programmierer",
+        "company": "Motion Fashion Network Europe GmbH",
+        "startDate": "03.2018",
+        "endDate": "06.2018",
+        "employmentType": "Teilzeit",
+        "location": "Hamburg",
+        "companyLink": "https://www.motion-fashion.com/",
+        "description": [
+            "Export von proMO-Daten in SAP XML und Systemintegration",
+            "Implementierung der Google Maps API für interaktive Standortdarstellungen",
+            "Produktinformationsmanagement (PIM): Konsolidierung und Standardisierung von Produktdaten",
+            "Automatisierung von Workflows und Validierungsregeln zur Reduktion von Fehlern"
+        ]
+    },
+    {
+        "title": "Team Lead",
+        "company": "eeTech",
+        "startDate": "02.2013",
+        "endDate": "06.2013",
+        "employmentType": "Vollzeit",
+        "location": "Melbourne",
+        "companyLink": " ",
+        "description": [
+            "Leitung eines 12-köpfigen Verkaufsteams; 70% überdurchschnittliche Installationsrate",
+            "Koordination von Installation, Beratung und Partnerzusammenarbeit",
+            "Projektfinanzierung und Zusammenarbeit mit staatlichen Stellen und Energieversorgern"
+        ]
+    }
+]

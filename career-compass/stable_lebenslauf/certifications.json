@@ -1,0 +1,396 @@
+[
+    {
+        "title": "Elements of AI for Business",
+        "issuer": "MinnaLearn",
+        "year": "2026",
+        "category": "Künstliche Intelligenz",
+        "url": "https://courses.minnalearn.com/certificate/en/elements-of-ai-for-business/221bff01-5c58-4c08-8d53-49a25e5e9b84",
+        "details": "Einführung in KI-Konzepte mit Fokus auf geschäftliche Anwendungen und Automatisierung." 
+    },
+    {
+        "title": "KI Spezialist",
+        "issuer": "Match4IT",
+        "year": "2025",
+        "category": "Künstliche Intelligenz",
+        "url": "https://match4it.com",
+        "details": "Umfassende Schulung zu KI-Methoden, ethischen Aspekten und praktischen Einsatzszenarien." 
+    },
+    {
+        "title": "KI für Geschäftskunden",
+        "issuer": "Microsoft Learn",
+        "year": "2024",
+        "category": "Künstliche Intelligenz",
+        "url": "https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/J5464QQT?sharingId=72379747087FBD70",
+        "details": "Nachgewiesene Kompetenz in der Implementierung von Cloud-Infrastrukturen. Expertise umfasst die Verwaltung von Azure-Ressourcen, die Optimierung von Workloads und die Anwendung von Best Practices für Datensicherheit und Governance in Enterprise-Umgebungen." 
+    },
+    {
+        "title": "KI - Chancen und Risiken für die Cybersicherheit",
+        "issuer": "Hubert Burda Media",
+        "year": "2023",
+        "category": "Künstliche Intelligenz",
+        "url": "./Certificate_of_Completion_KI_Cybersicherheit.pdf",
+        "details": "Analyse, wie KI Bedrohungslandschaften verändert und welche Gegenmaßnahmen sinnvoll sind." 
+    },
+    {
+        "title": "Microsoft Azure KI-Grundlagen: Erkunden visueller Tools für maschinelles Lernen",
+        "issuer": "Microsoft Learn",
+        "year": "2023",
+        "category": "Künstliche Intelligenz",
+        "url": "https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/WYRPLZYN?sharingId=72379747087FBD70",
+        "details": "Enterprise-Zertifizierung für die Integration und Steuerung von OpenAI-Modellen in Azure. Spezialisierung auf LLM-Konfiguration und generative Systemarchitekturen." 
+    },
+    {
+        "title": "Erstellen von Machine Learning-Modellen",
+        "issuer": "Microsoft Learn",
+        "year": "2023",
+        "category": "Künstliche Intelligenz",
+        "url": "https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/FAAWMDLX?sharingId=72379747087FBD70",
+        "details": "Enterprise-Validierung für die Entwicklung von Lösungen zur natürlichen Sprachverarbeitung (NLP) mittels Azure AI. Fokus auf Text-Mining und semantische Analysen." 
+    },
+    {
+        "title": "KNIME L1",
+        "issuer": "KNIME",
+        "year": "2023",
+        "category": "Data & BI",
+        "url": "https://www.credly.com/badges/891bf1ee-0b27-4b8d-945a-1a1587e1d36b/public_url",
+        "details": "Grundlagen zur Datenvorbereitung und Workflow-Automatisierung mit KNIME." 
+    },
+    {
+        "title": "Analyze Data with SQL",
+        "issuer": "Codecademy",
+        "year": "2024",
+        "category": "Datenbanken",
+        "url": "https://www.codecademy.com/profiles/constantinsinowski/certificates/5cafb2d937090210d7df3652",
+        "details": "Praktische SQL-Analysen: SELECT, JOINs, Aggregationen und Geschäftsmetriken." 
+    },
+    {
+        "title": "Abrufen und Transformieren von Daten mit Power BI",
+        "issuer": "Microsoft Learn",
+        "year": "2024",
+        "category": "Data & BI",
+        "url": "https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/4JVXQ2BK?sharingId=72379747087FBD70",
+        "details": "Einführung in parallele Vorbereitungvon Daten für eine Analyse mit Power BI." 
+    },
+    {
+        "title": "Daten für eine Analyse mit Power BI vorbereiten",
+        "issuer": "Microsoft Learn",
+        "year": "2024",
+        "category": "Data & BI",
+        "url": "https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/WR4G96EN?sharingId=72379747087FBD70",
+        "details": "Einführung in parallele Vorbereitungvon Daten für eine Analyse mit Power BI." 
+    },
+    {
+        "title": "Grundlegendes zur Parallelität in MySQL",
+        "issuer": "Microsoft Learn",
+        "year": "2024",
+        "category": "Datenbanken",
+        "url": "https://learn.microsoft.com/de-de/users/constantinsinowski1012/",
+        "details": "Einführung in parallele Verarbeitung und Performance-Aspekte bei MySQL." 
+    },
+    {
+        "title": "Grundlegendes zur Client-Server-Kommunikation in MySQL",
+        "issuer": "Microsoft Learn",
+        "year": "2024",
+        "category": "Datenbanken",
+        "url": "https://learn.microsoft.com/de-de/users/constantinsinowski1012/",
+        "details": "Konzepte der Client-Server-Architektur und sichere Datenübertragung in MySQL." 
+    },
+    {
+        "title": "Konfigurieren von Speicher- und Dateidiensten",
+        "issuer": "Microsoft Learn",
+        "year": "2024",
+        "category": "Datenbanken",
+        "url": "https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/W76CA7VN?sharingId=72379747087FBD70",
+        "details": "Verwaltung und Optimierung von Speicher- und Dateidiensten in Unternehmensumgebungen." 
+    },
+    {
+        "title": "SQL Server-Upgrades",
+        "issuer": "Microsoft Learn",
+        "year": "2024",
+        "category": "Datenbanken", 
+        "url": "https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/AQ35DUX7?sharingId=72379747087FBD70",
+        "details": "Best Practices für Versions-Upgrades, Migrationen und Minimierung von Ausfallzeiten." 
+    },
+    {
+        "title": "Schreiben erweiterter Transact-SQL-Abfragen",
+        "issuer": "Microsoft Learn",
+        "year": "2024",
+        "category": "Datenbanken",
+        "url": "https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/3XSNXTSH?sharingId=72379747087FBD70",
+        "details": "Erweiterte T-SQL-Techniken: Prozeduren, Funktionen und Performance-Optimierung." 
+    },
+    {
+        "title": "Programmieren mit Transact-SQL",
+        "issuer": "Microsoft Learn",
+        "year": "2024",
+        "category": "Datenbanken",
+        "url": "https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/BLV2T4QD?sharingId=72379747087FBD70",
+        "details": "Erweiterte T-SQL-Techniken: Prozeduren, Funktionen und Performance-Optimierung." 
+    },
+    {
+        "title": "Erste Schritte mit Abfragen mit Transact-SQL",
+        "issuer": "Microsoft Learn",
+        "year": "2024",
+        "category": "Datenbanken",
+        "url": "https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/HYS55U58?sharingId=72379747087FBD70",
+        "details": "Grundlagen von T-SQL-Abfragen, Filtern, Sortieren und einfachen Joins." 
+    },
+    {
+        "title": "Microsoft Azure Data Fundamentals: Datenanalyse in Azure",
+        "issuer": "Microsoft Learn",
+        "year": "2024",
+        "category": "Cloud",
+        "url": "https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/NZLWRE6F?sharingId=72379747087FBD70",
+        "details": "Grundlagen der Datenanalyse in Azure: relationale und NoSQL-Datenplattformen, Azure SQL, Data Lake, Synapse, Datenpipelines (ETL) sowie Datenschutz und Datensicherheit." 
+    },
+    {
+        "title": "AZ-104: Voraussetzungen für Azure-Administratoren",
+        "issuer": "Microsoft Learn",
+        "year": "2024",
+        "url": "https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/UXDB7SA3?sharingId=72379747087FBD70",
+        "details": "Kernkompetenzen für Azure-Administratoren: Identitäts- und Zugriffsverwaltung, Verwaltung von Storage und VMs, Konfiguration virtueller Netzwerke, Monitoring, Backup und grundlegende Sicherheitsmaßnahmen." 
+    },
+    {
+        "title": "Learn SQL Course",
+        "issuer": "Codecademy",
+        "year": "2024",
+        "category": "Datenbanken",
+        "url": "https://www.codecademy.com/profiles/constantinsinowski",
+        "details": "Kompakter SQL-Lehrgang: Abfragen, Datenmanipulation und grundlegende Datenmodellierung." 
+    },
+    {
+        "title": "How to Transform Tables with SQL Course",
+        "issuer": "Codecademy",
+        "year": "2019",
+        "category": "Datenbanken",
+        "url": "https://www.codecademy.com/profiles/constantinsinowski",
+        "details": "Techniken zur Umstrukturierung und Transformation von Tabellen mittels SQL." 
+    },
+    {
+        "title": "How to Analyze Business Metrics with SQL Course",
+        "issuer": "Codecademy",
+        "year": "2015",
+        "category": "Datenbanken",
+        "url": "https://www.codecademy.com/profiles/constantinsinowski",
+        "details": "Analyse betrieblicher Kennzahlen mit SQL zur Entscheidungsunterstützung." 
+    },
+    {
+        "title": "BI Dashboards with Power BI",
+        "issuer": "Codecademy",
+        "year": "2023",
+        "category": "Data & BI",
+        "url": "https://www.codecademy.com/profiles/constantinsinowski",
+        "details": "Erstellung interaktiver BI-Dashboards zur Visualisierung und Berichtsautomatisierung." 
+    },
+    {
+        "title": "Aufbereiten von Daten für die Analyse mit Power BI",
+        "issuer": "Microsoft Learn",
+        "year": "2023",
+        "category": "Data & BI",
+        "url": "https://learn.microsoft.com/de-de/users/constantinsinowski1012/",
+        "details": "Datenbereinigung und -modellierung für aussagekräftige Power BI-Analysen." 
+    },
+    {
+        "title": "Abrufen und Transformieren von Daten mit Power BI",
+        "issuer": "Microsoft Learn",
+        "year": "2023",
+        "category": "Data & BI",
+        "url": "https://learn.microsoft.com/de-de/users/constantinsinowski1012/",
+        "details": "ETL-Prozesse in Power BI: Datenquellen anbinden und transformieren." 
+    },
+    {
+        "title": "Power BI – Vom Datenchaos zur effektiven Entscheidungsgrundlage",
+        "issuer": "Hubert Burda Media",
+        "year": "2023",
+        "category": "Data & BI",
+        "url": "./Certificate_of_Completion_PowerBI.pdf",
+        "details": "Strategien zur Umsetzung datengetriebener Entscheidungen mit Power BI." 
+    },
+    {
+        "title": "Power BI für Einsteiger:innen",
+        "issuer": "Hubert Burda Media",
+        "year": "2023",
+        "category": "Data & BI",
+        "url": "./CertificateOfCompletion_PowerBI_Grundlagen.pdf",
+        "details": "Grundlagen von Power BI: Visualisierungen, Berichte und einfache Datenmodelle." 
+    },
+    {
+        "title": "Erste Schritte mit Power BI",
+        "issuer": "Microsoft Learn",
+        "year": "2023",
+        "category": "Data & BI",
+        "url": "https://learn.microsoft.com/de-de/users/constantinsinowski1012/",
+        "details": "Basiswissen zum Einstieg in Power BI und Erstellung erster Berichte." 
+    },
+    {
+        "title": "Einführung in SAP S/4 HANA",
+        "issuer": "Hochschule Fresenius",
+        "year": "2023",
+        "url": "",
+        "details": "Überblick über SAP S/4 HANA Kernfunktionen und Geschäftsprozesse." 
+    },
+    {
+        "title": "Data Science - Definition, Grundlagen und Anwendungsbeispiele",
+        "issuer": "Hochschule Fresenius",
+        "year": "2022",
+        "category": "Data & BI",
+        "url": "",
+        "details": "Grundlegende Konzepte der Datenwissenschaft und praxisnahe Anwendungsfälle." 
+    },
+    {
+        "title": "Microsoft Excel VBA: Grundlagen der Programmierung",
+        "issuer": "Hochschule Fresenius",
+        "year": "2022",
+        "url": "",
+        "details": "Automatisierung von Excel-Aufgaben mit VBA-Skripten und Makros." 
+    },
+    {
+        "title": "Excel Advanced",
+        "issuer": "Hochschule Fresenius",
+        "year": "2022",
+        "url": "",
+        "details": "Fortgeschrittene Excel-Techniken: Pivot, Formeln, Datenanalyse und Automatisierung." 
+    },
+    {
+        "title": "Learn R Course",
+        "issuer": "Codecademy",
+        "year": "2019",
+        "category": "Data & BI",
+        "url": "https://www.codecademy.com/profiles/constantinsinowski",
+        "details": "Grundlagen der Datenanalyse und Visualisierung mit R." 
+    },
+    {
+        "title": "Learn Python 2 Course",
+        "issuer": "Codecademy",
+        "year": "2019",
+        "url": "https://www.codecademy.com/profiles/constantinsinowski",
+        "details": "Einführung in Python 2: Syntax, Kontrollstrukturen und Basis-Scripting." 
+    },
+    {
+        "title": "Bash Scripting",
+        "issuer": "Codecademy",
+        "year": "2024",
+        "category": "Scripting & Automatisierung",
+        "url": "https://www.codecademy.com/profiles/constantinsinowski",
+        "details": "Skripterstellung für Automatisierung und Verwaltung von UNIX-ähnlichen Systemen." 
+    },
+    {
+        "title": "Verwalten von Einstellungen für einen lokalen Windows-Computer mithilfe von PowerShell-Cmdlets",
+        "issuer": "Microsoft Learn",
+        "year": "2024",
+        "category": "Scripting & Automatisierung",
+        "url": "https://learn.microsoft.com/de-de/users/constantinsinowski1012/",
+        "details": "Verwaltung lokaler Windows-Einstellungen durch PowerShell und Cmdlets." 
+    },
+    {
+        "title": "Erstellen und Verwalten geplanter Aufträge mithilfe von Windows PowerShell",
+        "issuer": "Microsoft Learn",
+        "year": "2024",
+        "category": "Scripting & Automatisierung",
+        "url": "https://learn.microsoft.com/de-de/users/constantinsinowski1012/",
+        "details": "Automatisierung geplanter Tasks und Hintergrundprozesse mit PowerShell." 
+    },
+    {
+        "title": "Erstellen und Verwalten von Hintergrundaufträgen mithilfe von Windows PowerShell",
+        "issuer": "Microsoft Learn",
+        "year": "2024",
+        "category": "Scripting & Automatisierung",
+        "url": "https://learn.microsoft.com/de-de/users/constantinsinowski1012/",
+        "details": "Konzeption und Steuerung von Hintergrundjobs und Services mit PowerShell." 
+    },
+    {
+        "title": "Work with different technologies in Power Automate for desktop",
+        "issuer": "Microsoft Learn",
+        "year": "2023",
+        "category": "Scripting & Automatisierung",
+        "url": "https://learn.microsoft.com/de-de/users/constantinsinowski1012/",
+        "details": "Integration verschiedener Technologien in Desktop-Automatisierungen mit Power Automate." 
+    },
+    {
+        "title": "Implement advanced logic in Power Automate for desktop",
+        "issuer": "Microsoft Learn",
+        "year": "2023",
+        "category": "Scripting & Automatisierung",
+        "url": "https://learn.microsoft.com/de-de/users/constantinsinowski1012/",
+        "details": "Erweiterte Steuerungslogik und Fehlerbehandlung in Desktop-Automatisierungen." 
+    },
+    {
+        "title": "Create and Manage Automated Processes by using Power Automate",
+        "issuer": "Microsoft Learn",
+        "year": "2023",
+        "category": "Scripting & Automatisierung",
+        "url": "https://learn.microsoft.com/de-de/users/constantinsinowski1012/",
+        "details": "Konzeption und Betrieb automatisierter Geschäftsprozesse mit Power Automate." 
+    },
+    {
+        "title": "Automate processes with Robotic Process Automation and Power Automate for desktop",
+        "issuer": "Microsoft Learn",
+        "year": "2023",
+        "category": "Scripting & Automatisierung",
+        "url": "https://learn.microsoft.com/de-de/users/constantinsinowski1012/",
+        "details": "Grundlagen der RPA und deren Umsetzung mit Power Automate Desktop." 
+    },
+    {
+        "title": "Automate a business process with Power Automate",
+        "issuer": "Microsoft Learn",
+        "year": "2023",
+        "category": "Scripting & Automatisierung",
+        "url": "https://learn.microsoft.com/de-de/users/constantinsinowski1012/",
+        "details": "Praxisnahe Umsetzung eines Geschäftsprozesses mittels Power Automate." 
+    },
+    {
+        "title": "Learn Bash Scripting Course",
+        "issuer": "Codecademy",
+        "year": "2018",
+        "category": "Scripting & Automatisierung",
+        "url": "https://www.codecademy.com/profiles/constantinsinowski",
+        "details": "Grundlagen des Bash-Scripting zur Systemadministration und Automatisierung." 
+    },
+    {
+        "title": "Learn C# Course",
+        "issuer": "Codecademy",
+        "year": "2023",
+        "category": "Programmierung",
+        "url": "https://www.codecademy.com/profiles/constantinsinowski",
+        "details": "Einführung in C#: OOP-Konzepte, Syntax und Anwendungsentwicklung." 
+    },
+    {
+        "title": "Learn Git & GitHub Course",
+        "issuer": "Codecademy",
+        "year": "2019",
+        "category": "Versionierung",
+        "url": "https://www.codecademy.com/profiles/constantinsinowski",
+        "details": "Versionsverwaltung mit Git und Kollaboration über GitHub." 
+    },
+    {
+        "title": "Learn the Command Line Course",
+        "issuer": "Codecademy",
+        "year": "2018",
+        "category": "Terminal",
+        "url": "https://www.codecademy.com/profiles/constantinsinowski",
+        "details": "Grundlegende Kommandozeilenkenntnisse für effizientes Arbeiten im Terminal." 
+    },
+    {
+        "title": "Learn Java Course",
+        "issuer": "Codecademy",
+        "year": "2016",
+        "category": "Programmierung",
+        "url": "https://www.codecademy.com/profiles/constantinsinowski",
+        "details": "Einführung in Java: Syntax, OOP und Anwendungsentwicklungskonzepte." 
+    },
+    {
+        "title": "Learn C++ Course",
+        "issuer": "Codecademy",
+        "year": "2015",
+        "category": "Programmierung",
+        "url": "https://www.codecademy.com/profiles/constantinsinowski",
+        "details": "Grundlagen von C++: Speicher, Syntax und prozedurale Programmierung." 
+    },
+    {
+        "title": "PADI Divemaster",
+        "issuer": "PADI",
+        "year": "2024",
+        "url": "https://achievements.padi.com/faa80b73-a620-48a7-a8ed-d29169464eab",
+        "details": "Professional Diver Certification: Ausbildung in Führung, Sicherheit und Tauchmanagement." 
+    }
+]

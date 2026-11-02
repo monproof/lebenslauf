@@ -1,0 +1,38 @@
+{
+  "name": "lebenslauf",
+  "version": "0.2.1",
+  "description": "updated structured data",
+  "main": "main.js",
+  "devDependencies": {
+    "eslint": "^9.19.0",
+    "grunt": "^1.5.3",
+    "grunt-contrib-cssmin": "^5.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-contrib-watch": "^0.4.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "local": "http-server",
+    "build": "grunt build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monproof/lebenslauf.git"
+  },
+  "keywords": [
+    "webspace",
+    "test"
+  ],
+  "author": "CS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monproof/lebenslauf/issues"
+  },
+  "homepage": "https://github.com/monproof/lebenslauf#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

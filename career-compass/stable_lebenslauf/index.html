@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title data-i18n="page.title">© 2026 Constantin Sinowski | Portfolio</title>
+    
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <!-- Floating Navigation -->
+    <nav class="floating-nav" aria-label="Seitennavigation" data-i18n-attr="aria-label:nav.label">
+        <ul>
+            <li><a href="#profile" data-i18n="nav.profile">Profil</a></li>
+            <li><a href="#experiences" data-i18n="nav.experience">Erfahrung</a></li>
+            <li><a href="#personal" data-i18n="nav.personal">Personalien</a></li>
+            <li><a href="#education" data-i18n="nav.education">Studium</a></li>
+            <li><a href="#certifications" data-i18n="nav.certifications">Zertifikate</a></li>
+            <li><a href="#publications" data-i18n="nav.publications">Publikationen</a></li>
+            <li><a href="#impressum" data-i18n="nav.imprint">Impressum</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <header>
+                <h1>Constantin Sinowski</h1>
+                <a href="#education" class="sidebar-subtitle">
+                    Digital Engineering & Management <br>
+                </a>
+            </header>
+
+            <details class="language-menu">
+                <summary aria-label="Sprache auswählen" data-i18n-attr="aria-label:language.menuLabel">
+                    <i data-lucide="globe-2" aria-hidden="true"></i>
+                    <span data-i18n="language.current">Deutsch</span>
+                    <i data-lucide="chevron-down" aria-hidden="true"></i>
+                </summary>
+                <div class="language-menu-options" role="group" aria-label="Sprache" data-i18n-attr="aria-label:language.menuLabel">
+                    <button type="button" data-language="de" lang="de" data-i18n="language.german">Deutsch</button>
+                    <button type="button" data-language="en" lang="en" data-i18n="language.english">English</button>
+                    <button type="button" data-language="fr" lang="fr" data-i18n="language.french">Français</button>
+                </div>
+            </details>
+
+            <nav>
+                <h2 class="sidebar-section-title" data-i18n="sidebar.contact">Kontakt</h2>
+                <div class="flex flex-col mt-3">
+
+                    <p class="sidebar-link">
+                        <a href="mailto:bewerbung@sinowski.de" class="social-icon-link" title="E-Mail" rel="noopener noreferrer" data-i18n-attr="href:contact.emailHref">
+                            <i class="fa-solid fa-envelope"></i><span data-i18n="contact.email"> bewerbung@sinowski.de</span>
+                        </a></p>
+
+                    <p class="sidebar-link">
+                        <a href="tel:+4915679001672" class="social-icon-link" title="Telefon" rel="noopener noreferrer">
+                            <i class="fa-solid fa-phone"></i><span> +49 156 79001672</span>
+                        </a></p>
+
+                    <p class="sidebar-link">
+                    <a href="https://linkedin.com/in/constantinsinowski/" target="_blank" class="social-icon-link" title="LinkedIn" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i><span> LinkedIn</span>
+                    </a></p>
+
+                </div>
+
+                <h2 class="sidebar-section-title" data-i18n="sidebar.documents">Dokumente</h2>
+                <div class="flex gap-5 mt-3">
+                    <a href="lebenslauf.pdf" data-i18n-attr="href:resume.href"
+                    class="flex items-center gap-3 px-4 py-2.5 text-[0.95rem] text-slate-400 bg-blue-600/20 border border-blue-500/30 rounded-xl hover:bg-blue-600 hover:text-white transition-all w-full shadow-sm"
+                    title="Lebenslauf herunterladen" data-i18n-attr="title:sidebar.downloadTitle"
+                    download>
+                        
+                        <i class="fa-solid fa-file-arrow-down w-5 h-5 flex items-center justify-center text-blue-400"></i>
+                        
+                        <span data-i18n="sidebar.resumePdf">Lebenslauf (PDF)</span>
+                    </a>
+                </div>
+
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content-wrapper">
+
+                <!-- 1. Berufliches Profil -->
+                <section id="profile">
+                    <header class="section-header">
+                        <div class="icon-wrapper">
+                            <i data-lucide="user"></i>
+                        </div>
+                        <h2 data-i18n="section.profile">Berufliches Profil</h2>
+                    </header>
+                    <div class="profile-text">
+                        <p data-i18n="profile.summary">Technisch versierter Projektmanager mit Fokus auf Datenmanagement, Prozessautomatisierung und digitale Systemlösungen. Ich verbinde tiefgreifende Datenanalyse mit moderner Softwareentwicklung, um komplexe Geschäftsanforderungen effizient zu lösen – von der Pipeline-Konzeption bis zum fertigen Deployment.</p>
+                    </div>
+                </section>
+
+                <!-- 2. Professionelle Erfahrung -->
+                <section id="experiences">
+                    <header class="section-header">
+                        <div class="icon-wrapper">
+                            <i data-lucide="briefcase"></i>
+                        </div>
+                        <h2 data-i18n="section.experience">Professionelle Erfahrung</h2>
+                    </header>
+
+                    <div class="experience-items"><article class="experience-item" data-experience-id="platform">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h3 class="entry-title">
+                                        <a href="https://www.sinowski.de/#web" target="_blank" rel="noopener noreferrer">
+                                            Product-Lifecycle System Architecture Coordinator
+                                            <i data-lucide="external-link" class="external-link-icon"></i>
+                                        </a>
+                                    </h3>
+                                    <p class="entry-subtitle">Remote | Projektarbeit</p>
+                                </div>
+                                <div class="date-badge">03.2025 — jetzt</div>
+                            </header>
+                            <ul class="task-list fa-ul">
+                                <li><span class="fa-li"><i class="fas fa-code"></i></span>Full-Stack-Entwicklung & Versionsmanagement: Integration einer webbasierten App für die automatisierte Extraktion von Schlüsselqualifikationen und Anforderungen aus Stellenanzeigen mit KI-Tools, um die Passgenauigkeit von Bewerbungen zu erhöhen.</li>
+                                <li><span class="fa-li"><i class="fas fa-robot"></i></span>KI-Integration & Prozessoptimierung: Implementierung innovativer Workflows durch gezieltes Prompt Engineering zur Automatisierung von Inhalten und Systemprozessen, um die Effizienz der Plattform und die User Experience maßgeblich zu steigern.</li>
+                                <li><span class="fa-li"><i class="fas fa-chart-bar"></i></span>Strategische Projektplanung & Architektur: Verantwortung für den gesamten Projektlebenszyklus – von der Anforderungsanalyse und technologischen Planung bis hin zum Deployment – unter Berücksichtigung skalierbarer IT-Strukturen.                                </li></ul></article><article class="experience-item" data-experience-id="havi-consultant">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h3 class="entry-title">
+                                        <a href="https://www.havi.com/" target="_blank" rel="noopener noreferrer">
+                                            IT Consultant
+                                            <i data-lucide="external-link" class="external-link-icon"></i>
+                                        </a>
+                                    </h3>
+                                    <p class="entry-subtitle">HAVI Solutions GmbH & Co. KG | Remote | Vollzeit</p>
+                                </div>
+                                <div class="date-badge">06.2024 — 11.2024</div>
+                            </header>
+                            <ul class="task-list fa-ul"><li><span class="fa-li"><i class="fas fa-code"></i></span>Optimierung von Datenmigrations-Workflows (SQL → XML)</li><li><span class="fa-li"><i class="fas fa-database"></i></span>Datenanalyse mit SQL und Perl zur Identifikation von Mustern</li><li><span class="fa-li"><i class="fas fa-terminal"></i></span>Automatisierung wiederkehrender Aufgaben mit Bash & PowerShell</li><li><span class="fa-li"><i class="fas fa-chart-pie"></i></span>Abstimmung technischer Anforderungen mit Fachbereichen; Effizienzsteigerung                            </li></ul></article><article class="experience-item" data-experience-id="burda-analytics">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h3 class="entry-title">
+                                        <a href="https://www.burda.com/" target="_blank" rel="noopener noreferrer">
+                                            Business Intelligence & Data Analytics
+                                            <i data-lucide="external-link" class="external-link-icon"></i>
+                                        </a>
+                                    </h3>
+                                    <p class="entry-subtitle">Hubert Burda Media Holding | Remote | Teilzeit</p>
+                                </div>
+                                <div class="date-badge">04.2023 — 02.2024</div>
+                            </header>
+                            <ul class="task-list fa-ul"><li><span class="fa-li"><i class="fas fa-database"></i></span>Konzeption und Pflege von Zeiterfassungssystemen in Excel</li><li><span class="fa-li"><i class="fas fa-laptop-code"></i></span>Finanzanalysen und Reporting mit KNIME; Erstellung von Visualisierungen</li><li><span class="fa-li"><i class="fas fa-chart-pie"></i></span>Evaluierung und Empfehlung passender Analysetools und Softwarelösungen</li><li><span class="fa-li"><i class="fas fa-chart-pie"></i></span>Erstellung aussagekräftiger Berichte für Entscheidungsträger                            </li></ul></article><article class="experience-item" data-experience-id="tier-data">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h3 class="entry-title">
+                                        <a href="https://www.tier.app/" target="_blank" rel="noopener noreferrer">
+                                            Datenerfasser
+                                            <i data-lucide="external-link" class="external-link-icon"></i>
+                                        </a>
+                                    </h3>
+                                    <p class="entry-subtitle">TIER Mobility | Berlin | Teilzeit</p>
+                                </div>
+                                <div class="date-badge">10.2021 — 10.2022</div>
+                            </header>
+                            <ul class="task-list fa-ul"><li><span class="fa-li"><i class="fas fa-project-diagram"></i></span>Digitalisierung und Archivierung eingehender Dokumente in Google Drive</li><li><span class="fa-li"><i class="fas fa-database"></i></span>Datenaufbereitung und Validierung in Google Sheets zur Qualitätssteigerung</li><li><span class="fa-li"><i class="fas fa-chart-pie"></i></span>Durchgeführte Analysen zur Prozessverbesserung und Kostensenkung</li><li><span class="fa-li"><i class="fas fa-lightbulb"></i></span>Verfasser von zwei wissenschaftlichen Arbeiten in Kooperation mit TIER Mobility                            </li></ul></article><article class="experience-item" data-experience-id="sasserath-analyst">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h3 class="entry-title">
+                                        <a href="https://www.sasserath-munzinger.de/" target="_blank" rel="noopener noreferrer">
+                                            Datenanalyst
+                                            <i data-lucide="external-link" class="external-link-icon"></i>
+                                        </a>
+                                    </h3>
+                                    <p class="entry-subtitle">Sasserath Munzinger Plus | Berlin | Projekt</p>
+                                </div>
+                                <div class="date-badge">05.2022 — 06.2022</div>
+                            </header>
+                            <ul class="task-list fa-ul"><li><span class="fa-li"><i class="fas fa-database"></i></span>Auslese, Bereinigung und Analyse von Umfragedaten (SPSS → Excel)</li><li><span class="fa-li"><i class="fas fa-chart-bar"></i></span>Erstellung von Pivot-Tabellen und Diagrammen zur Visualisierung</li><li><span class="fa-li"><i class="fas fa-rocket"></i></span>Erstellung einer professionellen Präsentation mit erklärenden Ergebnissen</li><li><span class="fa-li"><i class="fas fa-chart-pie"></i></span>Statistische Auswertung und Berichtserstellung                            </li></ul></article><article class="experience-item" data-experience-id="havi-developer">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h3 class="entry-title">
+                                        <a href="https://www.havi.com/" target="_blank" rel="noopener noreferrer">
+                                            Junior Software Developer & IT-Support
+                                            <i data-lucide="external-link" class="external-link-icon"></i>
+                                        </a>
+                                    </h3>
+                                    <p class="entry-subtitle">HAVI Solutions GmbH & Co. KG | Hamburg | Teilzeit</p>
+                                </div>
+                                <div class="date-badge">02.2019 — 08.2019</div>
+                            </header>
+                            <ul class="task-list fa-ul"><li><span class="fa-li"><i class="fas fa-server"></i></span>Automatisierung und Migration von Datenbanken mit Bash, Perl und Java</li><li><span class="fa-li"><i class="fas fa-code"></i></span>Mitwirkung an Java-Entwicklung im agilen Umfeld (Scrum, Git)</li><li><span class="fa-li"><i class="fas fa-project-diagram"></i></span>Entwicklung von Dokumenten-Automatisierungen mittels Excel-gestützter Vorlagen</li><li><span class="fa-li"><i class="fas fa-database"></i></span>Recherche und Dokumentation zu Cloud- und Container-Technologien (AWS, Docker, Kubernetes)                            </li></ul></article><article class="experience-item" data-experience-id="motion-programmer">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h3 class="entry-title">
+                                        <a href="https://www.motion-fashion.com/" target="_blank" rel="noopener noreferrer">
+                                            EDV-Programmierer
+                                            <i data-lucide="external-link" class="external-link-icon"></i>
+                                        </a>
+                                    </h3>
+                                    <p class="entry-subtitle">Motion Fashion Network Europe GmbH | Hamburg | Teilzeit</p>
+                                </div>
+                                <div class="date-badge">03.2018 — 06.2018</div>
+                            </header>
+                            <ul class="task-list fa-ul"><li><span class="fa-li"><i class="fas fa-network-wired"></i></span>Export von proMO-Daten in SAP XML und Systemintegration</li><li><span class="fa-li"><i class="fas fa-code"></i></span>Implementierung der Google Maps API für interaktive Standortdarstellungen</li><li><span class="fa-li"><i class="fas fa-cloud"></i></span>Produktinformationsmanagement (PIM): Konsolidierung und Standardisierung von Produktdaten</li><li><span class="fa-li"><i class="fas fa-terminal"></i></span>Automatisierung von Workflows und Validierungsregeln zur Reduktion von Fehlern                            </li></ul></article><article class="experience-item" data-experience-id="eetech-team-lead">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h3 class="entry-title">
+                                            Team Lead
+                                    </h3>
+                                    <p class="entry-subtitle">eeTech | Melbourne | Vollzeit</p>
+                                </div>
+                                <div class="date-badge">02.2013 — 06.2013</div>
+                            </header>
+                            <ul class="task-list fa-ul"><li><span class="fa-li"><i class="fas fa-chart-line"></i></span>Leitung eines 12-köpfigen Verkaufsteams; 70% überdurchschnittliche Installationsrate</li><li><span class="fa-li"><i class="fas fa-chart-pie"></i></span>Koordination von Installation, Beratung und Partnerzusammenarbeit</li><li><span class="fa-li"><i class="fas fa-user"></i></span>Projektfinanzierung und Zusammenarbeit mit staatlichen Stellen und Energieversorgern                            </li></ul></article></div>
+                </section>
+
+                 <!-- 2. Fähigkeiten & Fachwissen (Kacheln) -->
+                <section id="skills" class="mb-16">
+                    <header class="section-header">
+                        <div class="icon-wrapper">
+                            <i data-lucide="layers"></i>
+                        </div>
+                        <h2 data-i18n="section.skills">Fähigkeiten &amp; Fachwissen</h2>
+                    </header>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- KI -->
+                        <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+                            <div class="flex items-center gap-4 mb-4">
+                                <div class="bg-blue-50 text-blue-600 p-3 rounded-xl">
+                                    <i data-lucide="brain-circuit" class="w-6 h-6"></i>
+                                </div>
+                                <h3 class="text-lg font-bold text-slate-800"><a href="#certs-ai" class="hover:text-blue-600 transition-colors" data-i18n="skills.ai">Künstliche Intelligenz</a></h3>
+                            </div>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">Copilot</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">Make</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">LM Studio</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">IFTTT</span>
+                            </div>
+                        </div>
+
+                        <!-- Datenanalyse & BI -->
+                        <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+                            <div class="flex items-center gap-4 mb-4">
+                                <div class="bg-blue-50 text-blue-600 p-3 rounded-xl">
+                                    <i data-lucide="bar-chart-2" class="w-6 h-6"></i>
+                                </div>
+                                <h3 class="text-lg font-bold text-slate-800"><a href="#certs-bi" class="hover:text-blue-600 transition-colors" data-i18n="skills.dataBi">Datenanalyse &amp; BI</a></h3>
+                            </div>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">SQL</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">Power BI</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">Excel</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">Sheets</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">KNIME</span>
+                            </div>
+                        </div>
+
+                        <!-- Cloud & Infrastruktur -->
+                        <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+                            <div class="flex items-center gap-4 mb-4">
+                                <div class="bg-blue-50 text-blue-600 p-3 rounded-xl">
+                                    <i data-lucide="database" class="w-6 h-6"></i>
+                                </div>
+                                <h3 class="text-lg font-bold text-slate-800"><a href="#certs-cloud" class="hover:text-blue-600 transition-colors" data-i18n="skills.cloud">Cloud &amp; Infrastruktur</a></h3>
+                            </div>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">AWS</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">Azure</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">GCP</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">Docker</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">Kubernetes</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">Terraform</span>
+                            </div>
+                        </div>
+
+                        <!-- Prozessautomatisierung -->
+                        <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+                            <div class="flex items-center gap-4 mb-4">
+                                <div class="bg-blue-50 text-blue-600 p-3 rounded-xl">
+                                    <i data-lucide="cog" class="w-6 h-6"></i>
+                                </div>
+                                <h3 class="text-lg font-bold text-slate-800"><a href="#certs-automation" class="hover:text-blue-600 transition-colors" data-i18n="skills.processAutomation">Prozessautomatisierung</a></h3>
+                            </div>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">REST-APIs</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">Git</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">Perl</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">Bash</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">PowerShell</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">Power Automate</span>
+                            </div>
+                        </div>
+
+                        <!-- Programmiersprachen -->
+                        <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+                            <div class="flex items-center gap-4 mb-4">
+                                <div class="bg-blue-50 text-blue-600 p-3 rounded-xl">
+                                    <i data-lucide="code" class="w-6 h-6"></i>
+                                </div>
+                                <h3 class="text-lg font-bold text-slate-800"><a href="#certs-code" class="hover:text-blue-600 transition-colors" data-i18n="skills.programming">Programmiersprachen</a></h3>
+                            </div>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">Python</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">Perl</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">Java</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">C#</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">R</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">Ruby</span>
+                            </div>
+                        </div>
+
+                        <!-- Web -->
+                        <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+                            <div class="flex items-center gap-4 mb-4">
+                                <div class="bg-blue-50 text-blue-600 p-3 rounded-xl">
+                                    <i data-lucide="globe" class="w-6 h-6"></i>
+                                </div>
+                                <h3 class="text-lg font-bold text-slate-800"><a href="#web" class="hover:text-blue-600 transition-colors" data-i18n="skills.web">Web</a></h3>
+                            </div>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">React</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">Node.js</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">JavaScript</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">CSS</span>
+                                <span class="bg-slate-50 text-slate-600 border border-slate-200 px-3 py-1 rounded-lg text-sm font-medium">HTML</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- 3. Personalien -->
+                <section id="personal">
+                    <header class="section-header">
+                        <div class="icon-wrapper">
+                            <i data-lucide="info"></i>
+                        </div>
+                        <h2 data-i18n="section.personal">Personalien</h2>
+                    </header>
+                    <div class="personal-list">
+                        <a href="https://wa.me/4915679001672" class="personal-item" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-whatsapp"></i> <span>+49 156 79001672</span>
+                        </a>
+                        <a href="mailto:bewerbung@sinowski.de" class="personal-item" target="_blank" rel="noopener noreferrer" data-i18n-attr="href:contact.emailHref">
+                            <i data-lucide="mail"></i> <span data-i18n="contact.email">bewerbung@sinowski.de</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/constantinsinowski/" class="personal-item" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-linkedin"></i> <span data-i18n="personal.linkedin">LinkedIn Profil</span>
+                        </a>
+                        <div class="personal-item"><i data-lucide="map-pin"></i> <span>10827 Berlin, Deutschland</span></div>
+                        <div class="personal-item"><i data-lucide="sparkles"></i> <span><span data-i18n="personal.family">Verlobt, Vater eines Kindes</span> <span class="date-badge">2025</span></span></div>
+                        <div class="personal-item"><i data-lucide="car"></i> <span data-i18n="personal.drivingLicense">Führerschein - Klasse BE</span></div>
+                        <div class="personal-item"><i data-lucide="graduation-cap"></i> <span><span data-i18n="personal.school">Abitur - Allg. Hochschulreife</span> <span class="date-badge">2012</span></span></div>
+                        <div class="personal-item"><i data-lucide="cake-slice"></i> <span data-i18n="personal.birthday">Geburtstag: 10. Dezember</span></div>
+                    </div>
+                </section>
+                
+                <!-- 4. Vorschau -->
+                <section id="preview">
+                    <header class="section-header" id="web">
+                        <div class="icon-wrapper">
+                            <i data-lucide="monitor"></i>
+                        </div>
+                        <h2 data-i18n="section.preview">Vorschau</h2>
+                    </header>
+                    <div class="cover-letter-tool">
+                        <p class="cover-letter-intro" data-i18n="letter.intro">Erstelle ein individuelles Anschreiben auf Basis meiner dokumentierten Erfahrungen. Deine Eingaben bleiben in deinem Browser.</p>
+                        <form id="cover-letter-form" class="cover-letter-form">
+                            <div class="cover-letter-fields">
+                                <div class="cover-letter-field">
+                                    <label for="letter-company" data-i18n="letter.company">Unternehmen *</label>
+                                    <input id="letter-company" name="company" type="text" maxlength="160" required autocomplete="organization" data-i18n-attr="placeholder:letter.companyPlaceholder">
+                                </div>
+                                <div class="cover-letter-field">
+                                    <label for="letter-greeting" data-i18n="letter.greetingLabel">Anrede</label>
+                                    <input id="letter-greeting" name="greeting" type="text" maxlength="120" value="Sehr geehrte Damen und Herren," data-i18n-attr="placeholder:letter.greetingPlaceholder">
+                                </div>
+                                <div class="cover-letter-field">
+                                    <label for="letter-recipient" data-i18n="letter.recipient">Ansprechperson</label>
+                                    <input id="letter-recipient" name="recipient" type="text" maxlength="120" autocomplete="name">
+                                </div>
+                                <div class="cover-letter-field">
+                                    <label for="letter-closer-input" data-i18n="letter.closerLabel">Grußformel</label>
+                                    <input id="letter-closer-input" name="closer" type="text" maxlength="120" value="Mit schönen Grüßen," data-i18n-attr="placeholder:letter.closerPlaceholder">
+                                </div>
+                                <div class="cover-letter-field">
+                                    <label for="letter-street" data-i18n="letter.street">Straße und Hausnummer</label>
+                                    <input id="letter-street" name="street" type="text" maxlength="160" autocomplete="street-address">
+                                </div>
+                                <div class="cover-letter-field cover-letter-field-pair">
+                                    <div>
+                                        <label for="letter-zip" data-i18n="letter.zip">Postleitzahl</label>
+                                        <input id="letter-zip" name="zip" type="text" maxlength="16" autocomplete="postal-code">
+                                    </div>
+                                    <div>
+                                        <label for="letter-city" data-i18n="letter.city">Ort</label>
+                                        <input id="letter-city" name="city" type="text" maxlength="100" autocomplete="address-level2">
+                                    </div>
+                                </div>
+                                <div class="cover-letter-field">
+                                    <label for="letter-state" data-i18n="letter.state">Bundesland / Region</label>
+                                    <input id="letter-state" name="state" type="text" maxlength="100" autocomplete="address-level1">
+                                </div>
+                                <div class="cover-letter-field">
+                                    <label for="letter-country" data-i18n="letter.country">Land</label>
+                                    <input id="letter-country" name="country" type="text" maxlength="100" autocomplete="country-name">
+                                </div>
+                                <div class="cover-letter-field">
+                                    <label for="letter-job-title" data-i18n="letter.jobTitle">Stellenbezeichnung *</label>
+                                    <input id="letter-job-title" name="jobTitle" type="text" maxlength="160" required data-i18n-attr="placeholder:letter.jobTitlePlaceholder">
+                                </div>
+                                <div class="cover-letter-field cover-letter-field-wide">
+                                    <label for="letter-requirements" data-i18n="letter.requirements">Wichtige Anforderungen / Aufgaben *</label>
+                                    <textarea id="letter-requirements" name="requirements" rows="4" maxlength="600" required data-i18n-attr="placeholder:letter.requirementsPlaceholder"></textarea>
+                                </div>
+                            </div>
+
+                            <fieldset class="cover-letter-focus">
+                                <legend data-i18n="letter.focusLabel">Schwerpunkt des Anschreibens</legend>
+                                <div class="cover-letter-focus-options">
+                                    <label><input type="radio" name="focus" value="technical" checked><i data-lucide="cpu" class="focus-option-icon" aria-hidden="true"></i><span data-i18n="letter.focusTechnical">Technisches Verständnis</span></label>
+                                    <label><input type="radio" name="focus" value="workflow"><i data-lucide="cog" class="focus-option-icon" aria-hidden="true"></i><span data-i18n="letter.focusWorkflow">Workflow-Optimierung</span></label>
+                                    <label><input type="radio" name="focus" value="data"><i data-lucide="database" class="focus-option-icon" aria-hidden="true"></i><span data-i18n="letter.focusData">Datenanalyse</span></label>
+                                    <label><input type="radio" name="focus" value="reporting"><i data-lucide="bar-chart-3" class="focus-option-icon" aria-hidden="true"></i><span data-i18n="letter.focusReporting">Reporting und Visualisierung</span></label>
+                                </div>
+                            </fieldset>
+
+                            <div class="cover-letter-actions">
+                                <button class="cover-letter-button" type="submit" data-i18n="letter.generate">Anschreiben erstellen</button>
+                                <p class="cover-letter-privacy" data-i18n="letter.privacy">Keine Anmeldung, kein KI-Dienst und keine Speicherung: Die Angaben werden nur in dieser Seite verarbeitet.</p>
+                                <p id="letter-status" class="cover-letter-status" role="status" aria-live="polite"></p>
+                            </div>
+                        </form>
+
+                        <section id="cover-letter-output" class="cover-letter-output" aria-labelledby="letter-output-title" hidden>
+                            <div class="cover-letter-output-heading">
+                                <h3 id="letter-output-title" data-i18n="letter.previewHeading">Anschreiben-Vorschau</h3>
+                                <button id="letter-print" class="cover-letter-button cover-letter-button-secondary" type="button" data-i18n="letter.print">Drucken / als PDF speichern</button>
+                            </div>
+                            <div id="cover-letter-document" class="cover-letter-document">
+                                <header class="cover-letter-page-header">
+                                    <div class="cover-letter-candidate">
+                                        <strong>CONSTANTIN SINOWSKI</strong>
+                                        <span>Gustav-Freytag-Straße 7</span>
+                                        <span>10827 Berlin, Deutschland</span>
+                                    </div>
+                                </header>
+                                <footer class="cover-letter-page-footer">
+                                    <div class="cover-letter-contact">
+                                        <strong>CONSTANTIN SINOWSKI</strong>
+                                        <span>bewerbung@sinowski.de</span>
+                                        <a href="tel:+4915679001672">+49 156 79001672</a>
+                                        <a href="https://sinowski.de" target="_blank" rel="noopener noreferrer">sinowski.de</a>
+                                    </div>
+                                </footer>
+                                <div class="cover-letter-body">
+                                    <p class="cover-letter-date" id="letter-date"></p>
+                                    <div class="cover-letter-address">
+                                        <strong id="letter-company-preview"></strong>
+                                        <span id="letter-recipient-preview"></span>
+                                        <span id="letter-street-preview"></span>
+                                        <span id="letter-city-preview"></span>
+                                        <span id="letter-country-preview"></span>
+                                    </div>
+                                    <p class="cover-letter-subject"><strong data-i18n="letter.subjectLabel">Betreff:</strong> <span id="letter-subject"></span></p>
+                                    <p id="letter-greeting-preview" class="cover-letter-greeting"></p>
+                                    <div class="cover-letter-editor-wrap">
+                                        <span id="letter-edit-hint" class="cover-letter-editor-hint" role="tooltip" data-i18n="letter.editHint">Dieser Text kann bearbeitet werden.</span>
+                                        <textarea id="letter-body" class="cover-letter-editor" rows="15" maxlength="12000" aria-describedby="letter-edit-hint" data-i18n-attr="aria-label:letter.bodyLabel"></textarea>
+                                    </div>
+                                    <div id="letter-body-print" class="cover-letter-body-text"></div>
+                                    <div class="cover-letter-signoff">
+                                        <span id="letter-closer"></span>
+                                        <strong>Constantin Sinowski</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+
+                <!-- 5. Studium -->
+                <section id="education">
+                    <header class="section-header">
+                        <div class="icon-wrapper">
+                            <i data-lucide="graduation-cap"></i>
+                        </div>
+                        <h2 data-i18n="section.education">Studium</h2>
+                    </header>
+                    <article class="card">
+                        <header class="entry-header">
+                            <div class="title-area">
+                                <h3 class="entry-title">
+                                    <a href="https://www.fernstudium-fresenius.de/bachelor/wirtschaftsingenieurwesen-digital-engineering/" target="_blank" rel="noopener noreferrer">
+                                        B.Eng. Wirtschaftsingenieurwesen
+                                        <i data-lucide="external-link" class="external-link-icon"></i>
+                                    </a>
+                                </h3>
+                                <p class="entry-subtitle">Digital Engineering & Management | Hochschule Fresenius</p>
+                            </div>
+                            <div class="date-badge">2024</div>
+                        </header>
+                        <ul class="description-list">
+                            <li>
+                                <strong data-i18n="education.focusLabel">Schwerpunkt:</strong> <span data-i18n="education.focus">Informationstechnik &amp; Datenanalyse</span>
+                            </li>
+                            <li>
+                                <strong data-i18n="education.researchLabel">Wissenschaftliche Arbeiten:</strong>
+                                <span data-i18n="education.research">Fokus auf Prozessoptimierung und Mobilitätskonzepte in Kooperation mit <em>TIER Mobility</em> &amp; <em>Burda</em></span>
+                            </li>
+                            <li>
+                                <strong data-i18n="education.skillsLabel">Kernkompetenzen:</strong> <span data-i18n="education.skills">Schnittstelle zwischen Betriebswirtschaft und technischer Digitalisierung.</span>
+                            </li>
+                        </ul>
+                    </article>
+                </section>
+
+                <!-- 6. Zertifizierungen -->
+                <section id="certifications">
+                    <header class="section-header">
+                        <div class="icon-wrapper">
+                            <i data-lucide="shield-check"></i>
+                        </div>
+                        <h2 data-i18n="section.certifications">Zertifizierungen</h2>
+                    </header>
+
+                    <div class="certification-controls" id="certification-controls" hidden>
+                        <label for="certification-sort" data-i18n="certifications.sortLabel">Sortieren nach</label>
+                        <select id="certification-sort" name="certification-sort">
+                            <option value="year" data-i18n="certifications.sortYear">Jahr (neueste zuerst)</option>
+                            <option value="topic" data-i18n="certifications.sortTopic">Thema (A-Z)</option>
+                            <option value="provider" data-i18n="certifications.sortProvider">Anbieter (A-Z)</option>
+                        </select>
+                        <p class="certification-count" id="certification-sort-status" role="status" aria-live="polite"></p>
+                    </div>
+                    <div class="certification-grid certification-live-grid" id="certification-results" aria-live="polite" hidden></div>
+
+                    <div class="cert-section" id="certs-ai">
+                        <h3 class="cert-category-title">
+                            <i data-lucide="brain-circuit"></i> <span data-i18n="certifications.category.ai">Künstliche Intelligenz</span>
+                        </h3>
+                        <div class="certification-grid">
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://courses.minnalearn.com/certificate/en/elements-of-ai-for-business/221bff01-5c58-4c08-8d53-49a25e5e9b84" target="_blank" rel="noopener noreferrer">Elements of AI for Business</a></h4>
+                                        <p class="entry-subtitle">MinnaLearn</p>
+                                    </div>
+                                    <span class="date-badge">2026</span>
+                                </header>
+                                <p class="details">Einführung in KI-Konzepte mit Fokus auf geschäftliche Anwendungen und Automatisierung.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://match4it.com" target="_blank" rel="noopener noreferrer">KI Spezialist</a></h4>
+                                        <p class="entry-subtitle">Match4IT</p>
+                                    </div>
+                                    <span class="date-badge">2025</span>
+                                </header>
+                                <p class="details">Umfassende Schulung zu KI-Methoden, ethischen Aspekten und praktischen Einsatzszenarien.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/J5464QQT?sharingId=72379747087FBD70" target="_blank" rel="noopener noreferrer">KI für Geschäftskunden</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2024</span>
+                                </header>
+                                <p class="details">Nachgewiesene Kompetenz in der Implementierung von Cloud-Infrastrukturen. Expertise umfasst die Verwaltung von Azure-Ressourcen, die Optimierung von Workloads und die Anwendung von Best Practices für Datensicherheit und Governance in Enterprise-Umgebungen.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="./Certificate_of_Completion_KI_Cybersicherheit.pdf" target="_blank" rel="noopener noreferrer">KI - Chancen und Risiken für die Cybersicherheit</a></h4>
+                                        <p class="entry-subtitle">Hubert Burda Media</p>
+                                    </div>
+                                    <span class="date-badge">2023</span>
+                                </header>
+                                <p class="details">Analyse, wie KI Bedrohungslandschaften verändert und welche Gegenmaßnahmen sinnvoll sind.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/WYRPLZYN?sharingId=72379747087FBD70" target="_blank" rel="noopener noreferrer">Microsoft Azure KI-Grundlagen: Erkunden visueller Tools für maschinelles Lernen</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2023</span>
+                                </header>
+                                <p class="details">Enterprise-Zertifizierung für die Integration und Steuerung von OpenAI-Modellen in Azure. Spezialisierung auf LLM-Konfiguration und generative Systemarchitekturen.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/FAAWMDLX?sharingId=72379747087FBD70" target="_blank" rel="noopener noreferrer">Erstellen von Machine Learning-Modellen</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2023</span>
+                                </header>
+                                <p class="details">Enterprise-Validierung für die Entwicklung von Lösungen zur natürlichen Sprachverarbeitung (NLP) mittels Azure AI. Fokus auf Text-Mining und semantische Analysen.</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="cert-section" id="certs-bi">
+                        <h3 class="cert-category-title">
+                            <i data-lucide="bar-chart-3"></i> <span data-i18n="certifications.category.dataBi">Data & BI</span>
+                        </h3>
+                        <div class="certification-grid">
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://www.credly.com/badges/891bf1ee-0b27-4b8d-945a-1a1587e1d36b/public_url" target="_blank" rel="noopener noreferrer">KNIME L1</a></h4>
+                                        <p class="entry-subtitle">KNIME</p>
+                                    </div>
+                                    <span class="date-badge">2023</span>
+                                </header>
+                                <p class="details">Grundlagen zur Datenvorbereitung und Workflow-Automatisierung mit KNIME.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/4JVXQ2BK?sharingId=72379747087FBD70" target="_blank" rel="noopener noreferrer">Abrufen und Transformieren von Daten mit Power BI</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2024</span>
+                                </header>
+                                <p class="details">Einführung in parallele Vorbereitungvon Daten für eine Analyse mit Power BI.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/WR4G96EN?sharingId=72379747087FBD70" target="_blank" rel="noopener noreferrer">Daten für eine Analyse mit Power BI vorbereiten</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2024</span>
+                                </header>
+                                <p class="details">Einführung in parallele Vorbereitungvon Daten für eine Analyse mit Power BI.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://www.codecademy.com/profiles/constantinsinowski" target="_blank" rel="noopener noreferrer">BI Dashboards with Power BI</a></h4>
+                                        <p class="entry-subtitle">Codecademy</p>
+                                    </div>
+                                    <span class="date-badge">2023</span>
+                                </header>
+                                <p class="details">Erstellung interaktiver BI-Dashboards zur Visualisierung und Berichtsautomatisierung.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/de-de/users/constantinsinowski1012/" target="_blank" rel="noopener noreferrer">Aufbereiten von Daten für die Analyse mit Power BI</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2023</span>
+                                </header>
+                                <p class="details">Datenbereinigung und -modellierung für aussagekräftige Power BI-Analysen.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/de-de/users/constantinsinowski1012/" target="_blank" rel="noopener noreferrer">Abrufen und Transformieren von Daten mit Power BI</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2023</span>
+                                </header>
+                                <p class="details">ETL-Prozesse in Power BI: Datenquellen anbinden und transformieren.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="./Certificate_of_Completion_PowerBI.pdf" target="_blank" rel="noopener noreferrer">Power BI – Vom Datenchaos zur effektiven Entscheidungsgrundlage</a></h4>
+                                        <p class="entry-subtitle">Hubert Burda Media</p>
+                                    </div>
+                                    <span class="date-badge">2023</span>
+                                </header>
+                                <p class="details">Strategien zur Umsetzung datengetriebener Entscheidungen mit Power BI.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="./CertificateOfCompletion_PowerBI_Grundlagen.pdf" target="_blank" rel="noopener noreferrer">Power BI für Einsteiger:innen</a></h4>
+                                        <p class="entry-subtitle">Hubert Burda Media</p>
+                                    </div>
+                                    <span class="date-badge">2023</span>
+                                </header>
+                                <p class="details">Grundlagen von Power BI: Visualisierungen, Berichte und einfache Datenmodelle.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/de-de/users/constantinsinowski1012/" target="_blank" rel="noopener noreferrer">Erste Schritte mit Power BI</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2023</span>
+                                </header>
+                                <p class="details">Basiswissen zum Einstieg in Power BI und Erstellung erster Berichte.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="" target="_blank">Data Science - Definition, Grundlagen und Anwendungsbeispiele</a></h4>
+                                        <p class="entry-subtitle">Hochschule Fresenius</p>
+                                    </div>
+                                    <span class="date-badge">2022</span>
+                                </header>
+                                <p class="details">Grundlegende Konzepte der Datenwissenschaft und praxisnahe Anwendungsfälle.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://www.codecademy.com/profiles/constantinsinowski" target="_blank" rel="noopener noreferrer">Learn R Course</a></h4>
+                                        <p class="entry-subtitle">Codecademy</p>
+                                    </div>
+                                    <span class="date-badge">2019</span>
+                                </header>
+                                <p class="details">Grundlagen der Datenanalyse und Visualisierung mit R.</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="cert-section" id="certs-cloud">
+                        <h3 class="cert-category-title">
+                            <i data-lucide="database"></i> <span data-i18n="certifications.category.databases">Datenbanken</span>
+                        </h3>
+                        <div class="certification-grid">
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://www.codecademy.com/profiles/constantinsinowski/certificates/5cafb2d937090210d7df3652" target="_blank" rel="noopener noreferrer">Analyze Data with SQL</a></h4>
+                                        <p class="entry-subtitle">Codecademy</p>
+                                    </div>
+                                    <span class="date-badge">2024</span>
+                                </header>
+                                <p class="details">Praktische SQL-Analysen: SELECT, JOINs, Aggregationen und Geschäftsmetriken.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/de-de/users/constantinsinowski1012/" target="_blank" rel="noopener noreferrer">Grundlegendes zur Parallelität in MySQL</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2024</span>
+                                </header>
+                                <p class="details">Einführung in parallele Verarbeitung und Performance-Aspekte bei MySQL.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/de-de/users/constantinsinowski1012/" target="_blank" rel="noopener noreferrer">Grundlegendes zur Client-Server-Kommunikation in MySQL</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2024</span>
+                                </header>
+                                <p class="details">Konzepte der Client-Server-Architektur und sichere Datenübertragung in MySQL.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/W76CA7VN?sharingId=72379747087FBD70" target="_blank" rel="noopener noreferrer">Konfigurieren von Speicher- und Dateidiensten</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2024</span>
+                                </header>
+                                <p class="details">Verwaltung und Optimierung von Speicher- und Dateidiensten in Unternehmensumgebungen.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/AQ35DUX7?sharingId=72379747087FBD70" target="_blank" rel="noopener noreferrer">SQL Server-Upgrades</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2024</span>
+                                </header>
+                                <p class="details">Best Practices für Versions-Upgrades, Migrationen und Minimierung von Ausfallzeiten.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/3XSNXTSH?sharingId=72379747087FBD70" target="_blank" rel="noopener noreferrer">Schreiben erweiterter Transact-SQL-Abfragen</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2024</span>
+                                </header>
+                                <p class="details">Erweiterte T-SQL-Techniken: Prozeduren, Funktionen und Performance-Optimierung.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/BLV2T4QD?sharingId=72379747087FBD70" target="_blank" rel="noopener noreferrer">Programmieren mit Transact-SQL</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2024</span>
+                                </header>
+                                <p class="details">Erweiterte T-SQL-Techniken: Prozeduren, Funktionen und Performance-Optimierung.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/HYS55U58?sharingId=72379747087FBD70" target="_blank" rel="noopener noreferrer">Erste Schritte mit Abfragen mit Transact-SQL</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2024</span>
+                                </header>
+                                <p class="details">Grundlagen von T-SQL-Abfragen, Filtern, Sortieren und einfachen Joins.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://www.codecademy.com/profiles/constantinsinowski" target="_blank" rel="noopener noreferrer">Learn SQL Course</a></h4>
+                                        <p class="entry-subtitle">Codecademy</p>
+                                    </div>
+                                    <span class="date-badge">2024</span>
+                                </header>
+                                <p class="details">Kompakter SQL-Lehrgang: Abfragen, Datenmanipulation und grundlegende Datenmodellierung.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://www.codecademy.com/profiles/constantinsinowski" target="_blank" rel="noopener noreferrer">How to Transform Tables with SQL Course</a></h4>
+                                        <p class="entry-subtitle">Codecademy</p>
+                                    </div>
+                                    <span class="date-badge">2019</span>
+                                </header>
+                                <p class="details">Techniken zur Umstrukturierung und Transformation von Tabellen mittels SQL.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://www.codecademy.com/profiles/constantinsinowski" target="_blank" rel="noopener noreferrer">How to Analyze Business Metrics with SQL Course</a></h4>
+                                        <p class="entry-subtitle">Codecademy</p>
+                                    </div>
+                                    <span class="date-badge">2015</span>
+                                </header>
+                                <p class="details">Analyse betrieblicher Kennzahlen mit SQL zur Entscheidungsunterstützung.</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="cert-section" id="certs-cloud">
+                        <h3 class="cert-category-title">
+                            <i data-lucide="cloud"></i> <span data-i18n="certifications.category.cloud">Cloud</span>
+                        </h3>
+                        <div class="certification-grid">
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/NZLWRE6F?sharingId=72379747087FBD70" target="_blank" rel="noopener noreferrer">Microsoft Azure Data Fundamentals: Datenanalyse in Azure</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2024</span>
+                                </header>
+                                <p class="details">Grundlagen der Datenanalyse in Azure: relationale und NoSQL-Datenplattformen, Azure SQL, Data Lake, Synapse, Datenpipelines (ETL) sowie Datenschutz und Datensicherheit.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/api/achievements/share/de-de/ConstantinSinowski1012/UXDB7SA3?sharingId=72379747087FBD70" target="_blank" rel="noopener noreferrer">AZ-104: Voraussetzungen für Azure-Administratoren</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2024</span>
+                                </header>
+                                <p class="details">Kernkompetenzen für Azure-Administratoren: Identitäts- und Zugriffsverwaltung, Verwaltung von Storage und VMs, Konfiguration virtueller Netzwerke, Monitoring, Backup und grundlegende Sicherheitsmaßnahmen.</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="cert-section" id="certs-automation">
+                        <h3 class="cert-category-title">
+                            <i data-lucide="terminal-square"></i> <span data-i18n="certifications.category.scripting">Scripting & Automatisierung</span>
+                        </h3>
+                        <div class="certification-grid">
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://www.codecademy.com/profiles/constantinsinowski" target="_blank" rel="noopener noreferrer">Bash Scripting</a></h4>
+                                        <p class="entry-subtitle">Codecademy</p>
+                                    </div>
+                                    <span class="date-badge">2024</span>
+                                </header>
+                                <p class="details">Skripterstellung für Automatisierung und Verwaltung von UNIX-ähnlichen Systemen.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/de-de/users/constantinsinowski1012/" target="_blank" rel="noopener noreferrer">Verwalten von Einstellungen für einen lokalen Windows-Computer mithilfe von PowerShell-Cmdlets</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2024</span>
+                                </header>
+                                <p class="details">Verwaltung lokaler Windows-Einstellungen durch PowerShell und Cmdlets.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/de-de/users/constantinsinowski1012/" target="_blank" rel="noopener noreferrer">Erstellen und Verwalten geplanter Aufträge mithilfe von Windows PowerShell</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2024</span>
+                                </header>
+                                <p class="details">Automatisierung geplanter Tasks und Hintergrundprozesse mit PowerShell.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/de-de/users/constantinsinowski1012/" target="_blank" rel="noopener noreferrer">Erstellen und Verwalten von Hintergrundaufträgen mithilfe von Windows PowerShell</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2024</span>
+                                </header>
+                                <p class="details">Konzeption und Steuerung von Hintergrundjobs und Services mit PowerShell.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/de-de/users/constantinsinowski1012/" target="_blank" rel="noopener noreferrer">Work with different technologies in Power Automate for desktop</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2023</span>
+                                </header>
+                                <p class="details">Integration verschiedener Technologien in Desktop-Automatisierungen mit Power Automate.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/de-de/users/constantinsinowski1012/" target="_blank" rel="noopener noreferrer">Implement advanced logic in Power Automate for desktop</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2023</span>
+                                </header>
+                                <p class="details">Erweiterte Steuerungslogik und Fehlerbehandlung in Desktop-Automatisierungen.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/de-de/users/constantinsinowski1012/" target="_blank" rel="noopener noreferrer">Create and Manage Automated Processes by using Power Automate</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2023</span>
+                                </header>
+                                <p class="details">Konzeption und Betrieb automatisierter Geschäftsprozesse mit Power Automate.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/de-de/users/constantinsinowski1012/" target="_blank" rel="noopener noreferrer">Automate processes with Robotic Process Automation and Power Automate for desktop</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2023</span>
+                                </header>
+                                <p class="details">Grundlagen der RPA und deren Umsetzung mit Power Automate Desktop.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://learn.microsoft.com/de-de/users/constantinsinowski1012/" target="_blank" rel="noopener noreferrer">Automate a business process with Power Automate</a></h4>
+                                        <p class="entry-subtitle">Microsoft Learn</p>
+                                    </div>
+                                    <span class="date-badge">2023</span>
+                                </header>
+                                <p class="details">Praxisnahe Umsetzung eines Geschäftsprozesses mittels Power Automate.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://www.codecademy.com/profiles/constantinsinowski" target="_blank" rel="noopener noreferrer">Learn Bash Scripting Course</a></h4>
+                                        <p class="entry-subtitle">Codecademy</p>
+                                    </div>
+                                    <span class="date-badge">2018</span>
+                                </header>
+                                <p class="details">Grundlagen des Bash-Scripting zur Systemadministration und Automatisierung.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="" target="_blank">Microsoft Excel VBA: Grundlagen der Programmierung</a></h4>
+                                        <p class="entry-subtitle">Hochschule Fresenius</p>
+                                    </div>
+                                    <span class="date-badge">2022</span>
+                                </header>
+                                <p class="details">Automatisierung von Excel-Aufgaben mit VBA-Skripten und Makros.</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="cert-section" id="certs-code">
+                        <h3 class="cert-category-title">
+                            <i data-lucide="code-2"></i> <span data-i18n="certifications.category.programming">Programmierung</span>
+                        </h3>
+                        <div class="certification-grid">
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://www.codecademy.com/profiles/constantinsinowski" target="_blank" rel="noopener noreferrer">Learn C# Course</a></h4>
+                                        <p class="entry-subtitle">Codecademy</p>
+                                    </div>
+                                    <span class="date-badge">2023</span>
+                                </header>
+                                <p class="details">Einführung in C#: OOP-Konzepte, Syntax und Anwendungsentwicklung.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://www.codecademy.com/profiles/constantinsinowski" target="_blank" rel="noopener noreferrer">Learn Java Course</a></h4>
+                                        <p class="entry-subtitle">Codecademy</p>
+                                    </div>
+                                    <span class="date-badge">2016</span>
+                                </header>
+                                <p class="details">Einführung in Java: Syntax, OOP und Anwendungsentwicklungskonzepte.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://www.codecademy.com/profiles/constantinsinowski" target="_blank" rel="noopener noreferrer">Learn C++ Course</a></h4>
+                                        <p class="entry-subtitle">Codecademy</p>
+                                    </div>
+                                    <span class="date-badge">2015</span>
+                                </header>
+                                <p class="details">Grundlagen von C++: Speicher, Syntax und prozedurale Programmierung.</p>
+                            </article>
+                             <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://www.codecademy.com/profiles/constantinsinowski" target="_blank" rel="noopener noreferrer">Learn Python 2 Course</a></h4>
+                                        <p class="entry-subtitle">Codecademy</p>
+                                    </div>
+                                    <span class="date-badge">2019</span>
+                                </header>
+                                <p class="details">Einführung in Python 2: Syntax, Kontrollstrukturen und Basis-Scripting.</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="cert-section">
+                        <h3 class="cert-category-title">
+                            <i data-lucide="git-branch"></i> <span data-i18n="certifications.category.versioning">Versionierung</span>
+                        </h3>
+                        <div class="certification-grid">
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://www.codecademy.com/profiles/constantinsinowski" target="_blank" rel="noopener noreferrer">Learn Git & GitHub Course</a></h4>
+                                        <p class="entry-subtitle">Codecademy</p>
+                                    </div>
+                                    <span class="date-badge">2019</span>
+                                </header>
+                                <p class="details">Versionsverwaltung mit Git und Kollaboration über GitHub.</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="cert-section">
+                        <h3 class="cert-category-title">
+                            <i data-lucide="terminal"></i> <span data-i18n="certifications.category.terminal">Terminal</span>
+                        </h3>
+                        <div class="certification-grid">
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://www.codecademy.com/profiles/constantinsinowski" target="_blank" rel="noopener noreferrer">Learn the Command Line Course</a></h4>
+                                        <p class="entry-subtitle">Codecademy</p>
+                                    </div>
+                                    <span class="date-badge">2018</span>
+                                </header>
+                                <p class="details">Grundlegende Kommandozeilenkenntnisse für effizientes Arbeiten im Terminal.</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="cert-section">
+                        <h3 class="cert-category-title">
+                            <i data-lucide="award"></i> <span data-i18n="certifications.category.misc">Sonstiges</span>
+                        </h3>
+                        <div class="certification-grid">
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="" target="_blank">Einführung in SAP S/4 HANA</a></h4>
+                                        <p class="entry-subtitle">Hochschule Fresenius</p>
+                                    </div>
+                                    <span class="date-badge">2023</span>
+                                </header>
+                                <p class="details">Überblick über SAP S/4 HANA Kernfunktionen und Geschäftsprozesse.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="" target="_blank">Excel Advanced</a></h4>
+                                        <p class="entry-subtitle">Hochschule Fresenius</p>
+                                    </div>
+                                    <span class="date-badge">2022</span>
+                                </header>
+                                <p class="details">Fortgeschrittene Excel-Techniken: Pivot, Formeln, Datenanalyse und Automatisierung.</p>
+                            </article>
+                            <article class="card certification-item">
+                                <header class="entry-header">
+                                    <div class="title-area">
+                                        <h4 class="entry-title"><a href="https://achievements.padi.com/faa80b73-a620-48a7-a8ed-d29169464eab" target="_blank" rel="noopener noreferrer">PADI Divemaster</a></h4>
+                                        <p class="entry-subtitle">PADI</p>
+                                    </div>
+                                    <span class="date-badge">2024</span>
+                                </header>
+                                <p class="details">Professional Diver Certification: Ausbildung in Führung, Sicherheit und Tauchmanagement.</p>
+                            </article>
+                        </div>
+                    </div>
+                
+                </section>
+
+                <!-- 7. Veröffentlichungen -->
+                <section id="publications">
+                    <header class="section-header">
+                         <div class="icon-wrapper">
+                            <i data-lucide="library"></i>
+                        </div>
+                        <h2 data-i18n="section.publications">Veröffentlichungen</h2>
+                    </header>
+
+                    <div class="publication-items">
+                        <div class="year-divider"><h3>2023</h3></div><div class="publication-items">
+                        
+                                                <article class="publication-card">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h4 class="entry-title">
+                                        <a href="https://www.grin.com/document/1488122" target="_blank" rel="noopener noreferrer">
+                                            Optimierung von KNIME Workflows für Big Data Analytics
+                                        </a>
+                                    </h4>
+                                    <p class="entry-subtitle">Wie können große Datensätze aus mehreren Quellen kosteneffektiv zusammengeführt werden?</p>
+                                    <p class="entry-subtitle">ISBN: 9783389184325</p>
+                                    <p class="entry-subtitle">GRIN</p>
+                                </div>
+                                <span class="date-badge">2026</span>
+                            </header>
+                            <p class="pub-description">In dieser Studie wurde die Implementierung eines neuen Softwaresystems innerhalb der Hubert Burda Media Holding untersucht, das darauf abzielt, umfangreiche Datensätze effizient zu kombinieren, zu aktualisieren und zu validieren. Die Notwendigkeit einer lokalen Ausführung der Software wird betont, um die Sicherheit interner Daten zu gewährleisten. Es werden spezifische Anforderungen und Kriterien für das System festgelegt, einschließlich Funktionen für Datenbereinigung und Analyse, die transparente und nachvollziehbare Ergebnisse liefern. Eine umfassende Bewertung von über 50 Produkten wurde durchgeführt, wobei wissenschaftliche Forschungsergebnisse den Auswahlprozess unterstützten. Die Entscheidung fiel auf KNIME, ein Tool, das für seine leistungsstarken Datenverarbeitungsfunktionen bekannt ist. Die Integration von KNIME in die bestehende IT-Infrastruktur wird detailliert beschrieben, mit besonderem Fokus auf die Anforderungen an Schnittstellen und die Leistungsfähigkeit der Software. Es wurden fünf potenzielle Schnittstellen identifiziert und mit dem SAP-System abgeglichen. Die Studie beleuchtet auch die anfänglichen Hypothesen über die geeignete Lösung und deren Umsetzung. Während des Projekts traten technische und organisatorische Herausforderungen auf, insbesondere bei der Evaluierung der Schnittstellen, die von der IT-Abteilung abhängig sind. Eine vorgeschlagene Lösung beinhaltete den unidirektionalen Export von Daten aus dem SAP R/3-System auf einen Microsoft SQL Server, was Änderungen an den SAP-Daten verhindert und einen etablierten Dienst nutzt. Diese Studie bietet einen umfassenden Überblick über den Prozess der Auswahl und Implementierung eines Softwaresystems, das die spezifischen Anforderungen eines großen Medienkonzerns erfüllt.</p>
+                        </article>
+                        <article class="publication-card">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h4 class="entry-title">
+                                        <a href="https://www.grin.com/document/1382179" target="_blank" rel="noopener noreferrer">
+                                            Verantwortungsvoller Umgang mit künstlicher Intelligenz 
+                                        </a>
+                                    </h4>
+                                    <p class="entry-subtitle">Wie können Menschenrechte beim Einsatz von KI gewahrt werden?</p>
+                                    <p class="entry-subtitle">ISBN: 9783346930323</p>
+                                    <p class="entry-subtitle">GRIN</p>
+                                </div>
+                                <span class="date-badge">2023</span>
+                            </header>
+                            <p class="pub-description">Diese Arbeit zielt darauf ab, AI-Methoden und deren Regulierung darzustellen, bestehende Rahmenbedingungen und Regulierungen von AI zu beleuchten und eine Diskussionsgrundlage über ihren Nutzen, Risiken und Gefahren im Sinne der Menschenrechte zu schaffen. Sie betont die Wichtigkeit einer angemessenen Überwachung von AI, um Missbrauch einzudämmen, und fordert die Sensibilisierung der Öffentlichkeit für die Potenziale und Risiken der AI, um Menschen vor Betrug und Manipulation zu schützen.</p>
+                        </article>
+                        <article class="publication-card">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h4 class="entry-title">
+                                        <a href="https://amzn.eu/d/00F2U5M" target="_blank" rel="noopener noreferrer">
+                                            Integration eines Qualitätsmanagements in der Softwareentwicklung
+                                        </a>
+                                    </h4>
+                                    <p class="entry-subtitle">Wie kann ein durchgängiges Qualitätsmanagement in Projekten iterativ mit Scrum realisiert werden?</p>
+                                    <p class="entry-subtitle">Amazon</p>
+                                </div>
+                                <span class="date-badge">2023</span>
+                            </header>
+                            <p class="pub-description">Das Qualitätsmanagement in der Softwareentwicklung bezieht sich auf den Prozess, die Methoden und die Tools, die verwendet werden, um die Qualität von Softwareprodukten sicherzustellen. Dies beinhaltet die Überwachung und Überprüfung der Entwicklung von Anfang bis Ende, um sicherzustellen, dass die Software den Anforderungen des Kunden entspricht und Fehler minimiert werden. Ein wichtiger Teil des Qualitätsmanagements in der Softwareentwicklung ist die Durchführung von Tests.</p>
+                        </article><article class="publication-card">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h4 class="entry-title">
+                                        <a href="https://amzn.eu/d/7YCaeFZ" target="_blank" rel="noopener noreferrer">
+                                            Kanban-System zur Optimierung von Produktions- und Lieferketten
+                                        </a>
+                                    </h4>
+                                    <p class="entry-subtitle">Wie können Produktions- und Lieferketten mithilfe eines Kanban-Systems effizienter und nachhaltiger gestaltet werden?</p>
+                                    <p class="entry-subtitle">Amazon</p>
+                                </div>
+                                <span class="date-badge">2023</span>
+                            </header>
+                            <p class="pub-description">In dieser Studienarbeit werden die Möglichkeiten eines Kanban-Systems in Kombination mit ERP-Software erforscht, um Produktions- und Lieferketten nachhaltiger und effizienter zu gestalten. Dabei werden die Funktionsweise und Voraussetzungen für die automatisierte Überwachung von Materialflüssen erläutert, sowie Systeme zur automatischen Identifikation im Qualitätsmanagement vorgestellt. Die Vor- und Nachteile eines digitalisierten Kanban-Systems mit automatischer Identifikation von Komponenten werden im Kontext eines Unternehmens aufgezeigt. Die Vorgehensweise basiert auf wissenschaftlicher Literatur zu Produktions- und Logistikmanagement sowie PMT-Software zur Kapazitätsauslastung. Ziel ist es, Investitionspotenziale für schnellere Lieferungen und reduzierten Ressourcenbedarf aufzuzeigen.</p>
+                        </article><article class="publication-card">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h4 class="entry-title">
+                                        <a href="https://www.grin.com/document/1361892ttps://amzn.eu/d/7YCaeFZ" target="_blank" rel="noopener noreferrer">
+                                            Digitale Zwillinge
+                                        </a>
+                                    </h4>
+                                    <p class="entry-subtitle">Wie unterstützen digitale Modelle von Industrierobotern die Planung, Instandhaltung und Weiterentwicklung von Fertigungsanlagen?</p>
+                                    <p class="entry-subtitle">GRIN</p>
+                                </div>
+                                <span class="date-badge">2023</span>
+                            </header>
+                            <p class="pub-description">Technologien und Informationsverarbeitung prägen den Alltag von Menschen. Viele Menschen besitzen ein Smartphone, welches mit Sensorik ausgestattet ist, um den Standort innerhalb von Funkantennen wie auch im Bereich geostationärer Satelliten zu bestimmen. Die Höhe verglichen zum Meeresspiegel, die Bewegungsgeschwindigkeit des Nutzers wie auch dessen durchschnittliche Nutzung des Geräts kann regelbasiert analysiert werden, um als Reaktion auf die gemessenen Daten die durchschnittliche Schlafenszeit wie auch präferierte Routen zu nutzen, um relevante Benachrichtigungen zu Neuigkeiten in der Umgebung zu erhalten (Alpaydi, 2021). Künstliche Intelligenzen erstellen Profile für Werbeagenturen, Versicherungen und Entwicklung von neuen Produkten wie Applikationen und Geräten (Jordan, 2016). Dieser Text selbst kann bereits von linguistischen, neuronalen Modellen auf Rechtschreibung geprüft, wie auch anhand einiger Vorgaben verfasst werden (Bubeck, et al., 2023, S. 92). In der fertigenden Industrie werden Roboterarme eingesetzt, um schwere Bauteile zu heben, Komponenten zu verschweißen und zu lackieren. Dabei entstehen viele Daten über die Nutzung und den Zustand eines Roboters, welche zur Optimierung genutzt werden können.</p>
+                        </article><article class="publication-card">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h4 class="entry-title">
+                                        <a href="https://www.grin.com/document/1336655" target="_blank" rel="noopener noreferrer">
+                                            Iterative Entwicklung mit Versionsprotokollierung
+                                        </a>
+                                    </h4>
+                                    <p class="entry-subtitle">Wie kann die Softwareentwicklung mit der Protokollierung von Änderungen einzelner Klassen und Methoden verbessert werden?</p>
+                                    <p class="entry-subtitle">GRIN</p>
+                                </div>
+                                <span class="date-badge">2023</span>
+                            </header>
+                            <p class="pub-description">Heutzutage basiert der größte Teil der Technologien, die wir verwenden, auf Software. Bei der Programmierung wird der Code erstellt, aus welcher die Software besteht. Die Programmierung hat also im Laufe der Zeit einen immer höheren Stellenwert eingenommen. Dies ist auch der Grund, warum immer mehr Programmierparadigmen und Programmiersprachen entwickelt wurde. Die Iterative Entwicklung mit Versionsprotokollierung ist ein wichtiger Ansatz für die Softwareentwicklung, bei dem Projekte in kleinen Schritten und mit regelmäßiger Überprüfung und Überarbeitung fortgesetzt werden. Durch die Verwendung eines Versionskontrollsystems werden Änderungen an der Codebasis dokumentiert und es kann jederzeit zu früheren Versionen zurückgekehrt werden, wenn Probleme auftreten.Dieser Ansatz ermöglicht es Entwicklern, kontinuierlich Feedback von Benutzern und Stakeholdern zu erhalten und darauf zu reagieren, wodurch die Qualität und die Übereinstimmung mit den Anforderungen des des Projekts garantiert werden. Darüber hinaus kann die Zusammenarbeit von Entwicklern vereinfacht und beschleunigt werden, da Änderungen an der Codebasis jederzeit sicher nachverfolgt werden können. Insgesamt trägt die Iterative Entwicklung mit Versionsprotokollierung zu einem besseren Verständnis und einer größeren Kontrolle über das Projekt bei und führt zu einer höheren Qualität und Zuverlässigkeit des endgültigen Produkts.</p>
+                        </article><article class="publication-card">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h4 class="entry-title">
+                                        <a href="https://www.grin.com/document/1318357" target="_blank" rel="noopener noreferrer">
+                                            Informationssicherheit im Cloud-Computing
+                                        </a>
+                                    </h4>
+                                    <p class="entry-subtitle">GRIN</p>
+                                </div>
+                                <span class="date-badge">2023</span>
+                            </header>
+                            <p class="pub-description">Bereits in den 1960er Jahren entstanden Ideen, IT-Ressourcen wie Rechenleistung und Anwendungen als eine Dienstleistung einer großen Anzahl von Kunden gegen eine Nutzungsgebühr zur Verfügung zu stellen. Auf Grund der dafür notwendigen, aber damals noch nicht vorhandenen technischen Voraussetzungen wie schnelle und stabi­le Internetverbindungen sowie der Mehrbenutzerfähigkeit von IT-Systemen, war der technische und wirtschaftliche Durchbruch nicht möglich (Büst, 2013). Seit 2006 Amazon Web Services gestartet ist, haben sich weitere Dienstleister eta­bliert, bei denen mehrere unabhängige Nutzer in ihrem Budget flexibel agieren und durch gemeinsame Rechenkapazitäten hohe Bedarfsspitzen abdecken können. Der Aufbau einer Cloud Infrastruktur kann in drei Grundmodelle unterteilt werden: einer Public Cloud, einer Private Cloud und einer Kombination aus beidem - der Hybrid Cloud.Alle größeren Firmen in diesem Feld bieten Dienstleistungen an, welche durch internationale Datenschutzrichtlinien wie den Electronic Communications Privacy Act und den Patriot Act der Vereinigten Staaten von Amerika und der davon abhängigen Datenschutzvereinbarung Safe Harbour, welche durch den EU - US Data Privacy Shield und der Datenschutzgrundverordnung(GDPR, General Data Protection Regulation) der EU erweitert wurde, geschützt sind.Zur Vermeidung von Risiken der Datensicher­heit wird ein eingeschränkter Zugriff durch Befugnisrollen, eigene Verschlüsselung der verarbeiteten Daten, des Kommunikationsweges über Netzwerke durch Zugriffsbe­schränkungen, Virtuelle Private Netzwerk Tunnel, regelmäßige Prüfung auf Viren und andere Sicherheitsmaßnahmen empfohlen auch wenn Betreiber von Rechenzentren bereits hohe Standards für Verschlüsselungen und Datensicherheit erfüllen.</p>
+                        </article></div><div class="year-divider"><h3>2022</h3></div><div class="publication-items">
+                        <article class="publication-card">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h4 class="entry-title">
+                                        <a href="https://www.grin.com/document/1293242" target="_blank" rel="noopener noreferrer">
+                                            Risikomanagementprozesse
+                                        </a>
+                                    </h4>
+                                    <p class="entry-subtitle">Wie sichert die Analyse von Risiken die strategische Positionierung eines Unternehmens ab?</p>
+                                    <p class="entry-subtitle">GRIN</p>
+                                </div>
+                                <span class="date-badge">2022</span>
+                            </header>
+                            <p class="pub-description">Ein Unternehmen unterliegt je nach Branche und Markt auch Geschäftsrisiken durch das Tagesgeschäft. Diese können durch den Standort, die Handhabung von Gefahren­gut, dem Ausfall von Personal, Geschäftspartnern, Technologie, Liquidität und Ände­rungen am rechtlichen Rahmen hervorgerufen werden. Um eine Resilienz in diesen Herausforderungen aufzubauen, bedarf es Risikomanagementprozesse, welche Ge­fahren analysieren und präventive Maßnahmen erschließen (RMS, Risikomanage­mentsystem). Das Alltagsgeschäft wird zusätzlich durch geopolitischen Umstände, welche Rohstoffpreise und Wechselkurse beeinflussen, geprägt. In den letzten Jahren ist die Anzahl an Krisen weltweit gestiegen. Ende der 1990er Jahre haben überbewer­tete Internetfirmen an der globalen Börse für Turbulenzen gesorgt, gefolgt von der Fi­nanzkrise im Jahr 2008 mit ungedeckten Immobilienkrediten. Obwohl es bereits in den 1980er Jahren deutlich wurde, dauerte es einige Jahrzehnte, bis strukturelle Änderun­gen durch internationale Konzerne und Lieferketten im Sinne nachhaltiger und sozialer Führung (ESG, Environmental Social Governance) realisiert wurden. Nach 2 Jahren Pandemie und zunehmender Nachfrage an nachhaltigen Lösungen für Mobilität, Indus­trie und Haushalte aufgrund von Engpässen von Öl und Gas nimmt auch die Wahr­scheinlichkeit für ernsthafte Risiken im Westen Europas zu.</p>
+                        </article><article class="publication-card">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h4 class="entry-title">
+                                        <a href="https://www.grin.com/document/1264668" target="_blank" rel="noopener noreferrer">
+                                            IT-Security und Datenschutz
+                                        </a>
+                                    </h4>
+                                    <p class="entry-subtitle">Bedrohungsanalyse für eine Arztpraxis</p>
+                                    <p class="entry-subtitle">GRIN</p>
+                                </div>
+                                <span class="date-badge">2022</span>
+                            </header>
+                            <p class="pub-description">Während zunehmend mehr digitale Geräte und Anwendungen im Alltag verwendet werden, um Informationen zu verarbeiten wächst auch die Anzahl an Bedrohungen für die Sicherheit der Kommunikationssysteme. Damit ein System sicher ist, muss es un­terbrechungsfrei und nur für befugte Personen verfügbar sein. Sowohl die technische Infrastruktur als auch die Art und Weise wie diese von Personen genutzt wird muss den Zielen einer Organisation gerecht werden, dass die Informationsverarbeitung vertrau­lich erfolgt. Cybersicherheit wird oft nur als notwendige Compliance-Aufgabe oder gar als reiner Kostenfaktor betrachtet. Dabei kann eine hohe Sicherheit bei digitalen Pro­zessen oder Produkten ein Mehrwert oder Wettbewerbsvorteil sein. Cloud-Systeme oder Plattformen etwa funktionieren nur zuverlässig, wenn sie von Grund auf sicher sind. Das Kundenvertrauen kann durch nachweislich existente Sicherheitsmaßnahmen gestärkt werden. Cybersicherheit ist so notwendig wie das Qualitätsmanagement. Laut dem Digitalverband Bitkom entstehen der deutschen Wirtschaft jährlich Schäden von rund 230 Milliarden Euro durch Cyberangriffe. Nicht nur Universitäten oder Politiker werde dadurch getroffen, sondern sogar kritische Infrastrukturen wie die Strom- oder Wasserversorgung, Krankenhäuser oder Kommunikationssysteme. Private Unterneh­men aller Größen sind in letzter Zeit verstärkt zur Zielscheibe von Cyberattacken ge­worden, die beträchtlichen Schaden anrichten und auch die Existenz bedrohen kön­nen. Beispiele sind gestohlene Kundendaten oder Innovationen, gefälschte E-Mails vom CEO mit der Aufforderung, Geld auf Auslandskonten zu überweisen, oder die Blo­ckade der Produktionsanlagen mit anschließender Erpressung. Am häufigsten greifen die Cyberkriminellen Unternehmen mit sogenannter Ransomware an, um so Lösegeld zu erpressen.</p>
+                        </article></div><div class="year-divider"><h3>2021</h3></div><div class="publication-items">
+                        <article class="publication-card">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h4 class="entry-title">
+                                        <a href="https://www.grin.com/document/1264682" target="_blank" rel="noopener noreferrer">
+                                            Qualitätsmanagement in der fertigenden Industrie mithilfe von Radiofrequenz-Identifikation
+                                        </a>
+                                    </h4>
+                                    <p class="entry-subtitle">Wie unterstützt die RFID-Technologie automatisierte Prozesse und deren Qualitätsmanagement in der fertigenden Industrie?</p>
+                                    <p class="entry-subtitle">GRIN</p>
+                                </div>
+                                <span class="date-badge">2021</span>
+                            </header>
+                            <p class="pub-description">Unternehmen agieren im globalen Wettbewerbsmarkt. Um sich gegenüber vergleichbaren Produkten der Konkurrenz durchzusetzen, müssen die Merkmale eines Produkts den Ansprüchen eines Kunden gerecht werden. Damit das Produkt eines Unternehmens in einem Rahmen erzielt wird, welcher sowohl Zeit, Kosten als auch Qualität beachtet, benötigt ein Unternehmen eine Überwachung und Verbesserung der Produktionsprozesse. Die Qualitätskontrolle kann durch Mitarbeiter oder durch Automation erfolgen. Auf den folgenden Seiten wird erläutert, wie RFID-Systeme in der fertigenden Industrie genutzt werden können, um qualitative Produkte zu erzielen.</p>
+                        </article><article class="publication-card">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h4 class="entry-title">
+                                        <a href="https://www.grin.com/document/1264678" target="_blank" rel="noopener noreferrer">
+                                            Digitale Zahlen als Dezimalzahlen auf einer Siebensegment-Anzeige
+                                        </a>
+                                    </h4>
+                                    <p class="entry-subtitle">Wie werden mithilfe eines Siebensegment-Dekodierers digitale Zahlen als Dezimalzahlen auf einer Siebensegment-Anzeige dargestellt?</p>
+                                    <p class="entry-subtitle">GRIN</p>
+                                </div>
+                                <span class="date-badge">2021</span>
+                            </header>
+                            <p class="pub-description">Schon Anfang des letzten Jahrhunderts wurden Nachrichten über lange Distanzen mit elektrischen Signalen übertragen. Das manuelle Übersetzen der Nachrichten in verschiedenste Kombinationen aus kurzen und langen Signalen, wie auch das Auslesen dieser in reinen Text dauerte jedoch sehr lange. Daher gab es Ansätze, um die Morsezeichen direkt als alphanumerische Zeichen darzustellen. Die Darstellung von Informationen zur Warnung von Mitarbeitern in der Industrie und Logistik oder zur Mitteilung von sich ändernden Preisen und Handlungsanweisungen sind eine nützliche Anwendung für jeden Betrieb, innerhalb eines Gebäudes oder auf einem öffentlichen Platz.Digitale Anzeigen sind heutzutage kostengünstig, mitunter wegen der weiten Verbreitung von LED, welche in unterschiedlichsten Farben und Licht- stärken verfügbar sind. Gegenüber Plakatwerbung und statischen Zeichen ist es möglich, mit Bildern, Animationen wie auch Videos die Aufmerksamkeit auf eine Botschaft zu richten. Im alltäglichen Gebrauch sind Anzeigen bei Radioweckern, Armbanduhren und Taschenrechnern zu finden oder um Temperaturen am Ofen, die verbleibende Laufzeit bei einer Waschmaschine oder die Preise an der Tankstelle anzuzeigen.</p>
+                        </article><article class="publication-card">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h4 class="entry-title">
+                                        <a href="https://www.grin.com/document/1264676" target="_blank" rel="noopener noreferrer">
+                                            Analyse großer industrieller Datensätze
+                                        </a>
+                                    </h4>
+                                    <p class="entry-subtitle">Wie werden große Datensätze in der fertigenden Industrie analysiert und verwertet?</p>
+                                    <p class="entry-subtitle">GRIN</p>
+                                </div>
+                                <span class="date-badge">2021</span>
+                            </header>
+                            <p class="pub-description">Innovative Technologien haben dem Menschen erst durch Wasserdampf, dann mithilfe von Elektrizität routinierte, mechanische Arbeiten abgenommen. Die Digitaltechnik er­möglicht zudem eine Verarbeitung von Informationen, um Betriebsprozesse fortlaufend zu optimieren und neu zu erfinden. Zusammen mit sensibler Sensorik können auch Fertigungsanlagen und deren Wartungsprüfung automatisiert werden und während ei­ner laufenden Produktion Fehler vermieden werden, was zu einer höheren Qualität der Produkte führt. Statt handwerkliche Arbeiten durchzuführen, erhält der Mensch da­durch neue Aufgabengebiete bei der Kontrolle, Steuerung, Überwachung und Verbes­serung von Maschinen. Unternehmen nutzen in industriellen Fertigungsanlagen ver­schiedenste automatisierte Lösungen von mehreren Herstellern. In einer Wertschöp­fungskette entstehen in der Logistik eines speziellen Bauteils eines Zulieferers Daten über den Status der derzeitigen Position, durch Prüfungen auf Unversehrtheit und der vollständigen Zahlung der Transaktion. Das empfangende Unternehmen kann wieder­um ein Zulieferer eines weiteren Unternehmens oder Konsortiums sein. Falls die anfal­lenden Daten von Maschinen unterschiedlichster Hersteller und die Transaktionsdaten von einem Unternehmenszusammenschluss nicht durch standardisierte Schnittstellen, Formate, Sprache und Maßeinheiten gleichgeschaltet sind, entsteht eine Barriere. Die­se muss mit zusätzlichem Aufwand und Investitionen aller beteiligten Unternehmen überwunden werden, um zeitnahe und aussagekräftige Rückschlüsse über den Zu­stand einer Produktionsanlage und der entsprechenden Logistik treffen zu können. Mit modernsten Technologien der elektronischen Datenverarbeitung können akkurate Aus­sagen über zukünftige Zustände erschlossen werden, sodass Steuerungskomponente Anpassungen der Produktionsumgebungen selbst übernehmen.</p>
+                        </article><article class="publication-card">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h4 class="entry-title">
+                                        <a href="https://www.grin.com/document/1336653" target="_blank" rel="noopener noreferrer">
+                                            Die Bestimmung der Elementarladung
+                                        </a>
+                                    </h4>
+                                    <p class="entry-subtitle">GRIN</p>
+                                </div>
+                                <span class="date-badge">2021</span>
+                            </header>
+                            <p class="pub-description">Elektrizität ist im Alltag allgegenwärtig − jeder Haushalt erhält regelmäßig eine Stromrechnung. Die dort in Rechnung gestellte 'Ware' ist jedoch nicht der elektrische Strom, sondern die gelieferte elektrische Energie, die zum Beleuchten, Heizen, Kühlen oder für mechanische Arbeiten genutzt wurde. Wenn von elektrischem Strom gesprochen wird, ist im Allgemeinen die Stärke dieses Stromes gemeint, also die physikalische Größe elektrischer Stromstärke. Diese ist definiert als die Menge an elektrischer Ladung, die pro Zeitintervall durch den Querschnitt eines elektrischen Leiters fließt, geteilt durch die Länge des Zeitintervalls.</p>
+                        </article></div><div class="year-divider"><h3>2020</h3></div><div class="publication-items">
+                        <article class="publication-card">
+                            <header class="entry-header">
+                                <div class="title-area">
+                                    <h4 class="entry-title">
+                                        <a href="https://www.grin.com/document/1336653" target="_blank" rel="noopener noreferrer">
+                                            Die Monopolstellung von FlixBus im Markt für Personenverkehr
+                                        </a>
+                                    </h4>
+                                    <p class="entry-subtitle">GRIN</p>
+                                </div>
+                                <span class="date-badge">2020</span>
+                            </header>
+                            <p class="pub-description">Anhand des Segments im Markt für Personenverkehr wird aufgezeigt, wie das Unternehmen FlixBus sich im Markt fur Fernbusreisen etabliert hat. Dies wird dadurch gestützt, dass die Geschichte des Personenbeforderungsgesetz aufgeführt wird und wie verschiedene Unternehmen, welche später von FlixBus akquiriert wurden, diesen Markt ausgebaut und bedient haben. Weiter wird auch darauf ein- gegangen, wie sich FlixBus durch Markenbekanntheit und Qualität bei der Buchung und der Fahrt als Marktführer durchgesetzt hat und welche Preiselastizität in der Nachfrage fur Fahrscheine vorherrscht und wie diese die Erlöse beeinflusst. Zum Schluss wird diskutiert, wie die Bundesregierung von Deutschland bei einer Monopolbildung reagiert und wie sich diese Situation auf europäischer Ebene verhält.</p>
+                        </article></div>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+    </div>
+
+<section id="impressum">
+    <footer id="impressum" class="footer-optimized px-6 py-16 bg-[#111827] border-t border-slate-800">
+    <div class="max-w-4xl mx-auto mb-12">
+        <h2 class="text-xl font-bold flex items-center gap-2 text-white border-b border-slate-700 pb-4">
+            <i class="fa-solid fa-globe text-blue-500"></i> <span data-i18n="footer.imprint">Impressum</span>
+        </h2>
+    </div>
+
+    <div class="footer-grid">
+        <div class="footer-section">
+            <h4 data-i18n="sidebar.contact">Kontakt</h4>
+            <div class="footer-links-container">
+                <a href="mailto:bewerbung@sinowski.de" class="footer-link-item" data-i18n-attr="href:contact.emailHref">
+                    <i class="fa-solid fa-envelope"></i><span data-i18n="contact.email">bewerbung@sinowski.de</span>
+                </a>
+                <a href="tel:+4915679001672" class="footer-link-item">
+                    <i class="fa-solid fa-phone"></i><span>+49 156 79001672</span>
+                </a>
+                <a href="https://linkedin.com/in/constantinsinowski" class="footer-link-item" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i><span>LinkedIn</span>
+                </a>
+
+                <a href="https://sinowski.de/#datenschutz" class="footer-link-item" target="_blank">
+                    <i class="fa-solid fa-map-marker-alt"></i><span>Berlin</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <h4 data-i18n="sidebar.documents">Dokumente</h4>
+            <div class="footer-links-container">
+                <a href="lebenslauf.pdf" class="footer-link-item" title="Lebenslauf herunterladen" data-i18n-attr="title:sidebar.downloadTitle,href:resume.href" download>
+                    <i class="fa-solid fa-file-arrow-down"></i><span data-i18n="sidebar.resumePdf">Lebenslauf (PDF)</span>
+                </a>
+                <a href="https://github.com/monproof/lebenslauf/tree/latex" class="footer-link-item" title="Lebenslauf (LaTeX)" data-i18n-attr="title:footer.resumeLatex" target="_blank">
+                    <i class="fa-solid fa-file-code"></i><span data-i18n="footer.resumeLatex">Lebenslauf (LaTeX)</span>
+                </a>
+
+                <a href="https://github.com/monproof/lebenslauf" class="footer-link-item" title="Lebenslauf als Projekt bei GitHub" data-i18n-attr="title:footer.resumeGithubTitle" target="_blank">
+                    <i class="fa-brands fa-github"></i><span data-i18n="footer.resumeGithub">Lebenslauf (GitHub)</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <section id="datenschutz" class="mt-12 pt-8 border-t border-slate-700 max-w-4xl mx-auto text-slate-300">
+        <h2 class="text-xl font-bold flex items-center gap-2 text-white border-b border-slate-700 pb-4">
+            <i class="fa-solid fa-shield-alt text-blue-500"></i> <span data-i18n="footer.privacy">Datenschutz</span>
+        </h2>
+        <div class="space-y-4 text-sm leading-relaxed">
+            <p><strong data-i18n="privacy.dataTitle">1. Datenerfassung:</strong> <span data-i18n="privacy.data">Diese Website dient als Portfolio. Personenbezogene Daten werden nur erfasst, wenn Sie mich aktiv kontaktieren.</span></p>
+            <p><strong data-i18n="privacy.hostingTitle">2. Hosting:</strong> <span data-i18n="privacy.hosting">Die Seite wird auf sicheren Servern gehostet (Logfiles zur Betriebssicherheit).</span></p>
+            <p><strong data-i18n="privacy.cookiesTitle">3. Cookies:</strong> <span data-i18n="privacy.cookies">Diese Website verwendet keine Cookies.</span></p>
+        </div>
+
+        <div class="footer-bottom mt-16 pt-8 border-t border-slate-800 text-center">
+            <a href="https://github.com/monproof/lebenslauf" class="text-slate-500 hover:text-white text-xs uppercase tracking-widest transition-all">
+                © 2026 Constantin Sinowski
+            </a>
+        </div>
+    </section>
+
+    </footer>
+</section>
+
+    <script src="main.js"></script>
+</body>
+</html>
